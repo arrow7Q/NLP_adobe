@@ -1,12 +1,21 @@
 import xml.etree.ElementTree as ET
 
-tree=ET.parse('books.xml')
-root=tree.getroot()
 
+
+path='dita/frm_getstarted_gs.xml'
+
+
+tree=ET.parse(path)
+root=tree.getroot()
+    
 print root.tag
 print root.attrib
 
 for child in root:
-    print child.tag
-        
+  for i in child.iter('p'):
+    print i.text
+  print '\n'
 
+
+    
+        
