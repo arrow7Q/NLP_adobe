@@ -1,0 +1,2087 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/package.json
+6 verbose install where, deps [ '/Users/utkarsh/codes/Help-bot',
+6 verbose install   [ 'jquery',
+6 verbose install     'child_process',
+6 verbose install     'bootstrap',
+6 verbose install     'wordnet-db',
+6 verbose install     'wndb-with-exceptions',
+6 verbose install     'express',
+6 verbose install     'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'multer',
+6 verbose install     'solr',
+6 verbose install     'babel-preset-es2015',
+6 verbose install     'babelify',
+6 verbose install     'grunt',
+6 verbose install     'grunt-babel',
+6 verbose install     'grunt-browserify',
+6 verbose install     'grunt-cli',
+6 verbose install     'grunt-complexity',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-nodeunit',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-eslint',
+6 verbose install     'grunt-exec',
+6 verbose install     'grunt-sass',
+6 verbose install     'load-grunt-tasks' ] ]
+7 verbose install where, peers [ '/Users/utkarsh/codes/Help-bot', [] ]
+8 verbose installManyTop reading for lifecycle /Users/utkarsh/codes/Help-bot/package.json
+9 info preinstall help-bot@1.0.0
+10 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/babel-preset-es2015/package.json
+11 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/babelify/package.json
+12 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/body-parser/package.json
+13 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/bootstrap/package.json
+14 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/child_process/package.json
+15 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/cookie-parser/package.json
+16 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/eslint/package.json
+17 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/express/package.json
+18 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt/package.json
+19 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-babel/package.json
+20 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-browserify/package.json
+21 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-cli/package.json
+22 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-complexity/package.json
+23 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-clean/package.json
+24 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-copy/package.json
+25 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-jshint/package.json
+26 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-nodeunit/package.json
+27 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-uglify/package.json
+28 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-watch/package.json
+29 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-eslint/package.json
+30 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-exec/package.json
+31 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-sass/package.json
+32 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/jquery/package.json
+33 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/load-grunt-tasks/package.json
+34 verbose installManyTop reading scoped package data from /Users/utkarsh/codes/Help-bot/node_modules/multer/package.json
+35 info package.json grunt-browserify@5.0.0 No license field.
+36 info package.json child_process@1.0.2 child_process is also the name of a node core module.
+37 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/package.json
+38 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/babel-preset-es2015/package.json
+39 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/babelify/package.json
+40 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/body-parser/package.json
+41 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/bootstrap/package.json
+42 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/child_process/package.json
+43 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/cookie-parser/package.json
+44 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/eslint/package.json
+45 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/express/package.json
+46 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt/package.json
+47 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-babel/package.json
+48 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-browserify/package.json
+49 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-cli/package.json
+50 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-complexity/package.json
+51 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-clean/package.json
+52 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-copy/package.json
+53 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-jshint/package.json
+54 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-nodeunit/package.json
+55 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-uglify/package.json
+56 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-contrib-watch/package.json
+57 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-eslint/package.json
+58 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-exec/package.json
+59 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/grunt-sass/package.json
+60 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/jquery/package.json
+61 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/load-grunt-tasks/package.json
+62 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/multer/package.json
+63 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/.bin/eslint/package.json
+64 verbose targetResolver reading package data from /Users/utkarsh/codes/Help-bot/node_modules/.bin/grunt/package.json
+65 silly cache add args [ 'wordnet-db@', null ]
+66 verbose cache add spec wordnet-db@
+67 silly cache add parsed spec { raw: 'wordnet-db@',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'wordnet-db',
+67 silly cache add   rawSpec: '',
+67 silly cache add   spec: '*',
+67 silly cache add   type: 'range' }
+68 silly addNamed wordnet-db@*
+69 verbose addNamed "*" is a valid semver range for wordnet-db
+70 silly addNameRange { name: 'wordnet-db', range: '*', hasData: false }
+71 silly mapToRegistry name wordnet-db
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/wordnet-db
+75 verbose addNameRange registry:https://registry.npmjs.org/wordnet-db not in flight; fetching
+76 silly cache add args [ 'wndb-with-exceptions@', null ]
+77 verbose cache add spec wndb-with-exceptions@
+78 silly cache add parsed spec { raw: 'wndb-with-exceptions@',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'wndb-with-exceptions',
+78 silly cache add   rawSpec: '',
+78 silly cache add   spec: '*',
+78 silly cache add   type: 'range' }
+79 silly addNamed wndb-with-exceptions@*
+80 verbose addNamed "*" is a valid semver range for wndb-with-exceptions
+81 silly addNameRange { name: 'wndb-with-exceptions', range: '*', hasData: false }
+82 silly mapToRegistry name wndb-with-exceptions
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/wndb-with-exceptions
+86 verbose addNameRange registry:https://registry.npmjs.org/wndb-with-exceptions not in flight; fetching
+87 verbose already installed skipping express@ /Users/utkarsh/codes/Help-bot
+88 verbose already installed skipping body-parser@ /Users/utkarsh/codes/Help-bot
+89 verbose already installed skipping cookie-parser@ /Users/utkarsh/codes/Help-bot
+90 verbose already installed skipping multer@ /Users/utkarsh/codes/Help-bot
+91 silly cache add args [ 'solr@', null ]
+92 verbose cache add spec solr@
+93 silly cache add parsed spec { raw: 'solr@',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'solr',
+93 silly cache add   rawSpec: '',
+93 silly cache add   spec: '*',
+93 silly cache add   type: 'range' }
+94 silly addNamed solr@*
+95 verbose addNamed "*" is a valid semver range for solr
+96 silly addNameRange { name: 'solr', range: '*', hasData: false }
+97 silly mapToRegistry name solr
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/solr
+101 verbose addNameRange registry:https://registry.npmjs.org/solr not in flight; fetching
+102 verbose already installed skipping babel-preset-es2015@ /Users/utkarsh/codes/Help-bot
+103 verbose request uri https://registry.npmjs.org/solr
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 18:30:49
+106 verbose request id baed3c4cb4cc39dc
+107 http request GET https://registry.npmjs.org/solr
+108 verbose already installed skipping babelify@ /Users/utkarsh/codes/Help-bot
+109 verbose already installed skipping grunt@^1.0.1 /Users/utkarsh/codes/Help-bot
+110 verbose already installed skipping grunt-babel@ /Users/utkarsh/codes/Help-bot
+111 verbose already installed skipping grunt-browserify@ /Users/utkarsh/codes/Help-bot
+112 verbose already installed skipping grunt-cli@ /Users/utkarsh/codes/Help-bot
+113 verbose already installed skipping grunt-complexity@ /Users/utkarsh/codes/Help-bot
+114 verbose already installed skipping grunt-contrib-clean@ /Users/utkarsh/codes/Help-bot
+115 verbose already installed skipping grunt-contrib-copy@ /Users/utkarsh/codes/Help-bot
+116 verbose already installed skipping grunt-contrib-jshint@ /Users/utkarsh/codes/Help-bot
+117 verbose already installed skipping grunt-contrib-nodeunit@ /Users/utkarsh/codes/Help-bot
+118 verbose already installed skipping grunt-contrib-uglify@ /Users/utkarsh/codes/Help-bot
+119 verbose already installed skipping grunt-contrib-watch@ /Users/utkarsh/codes/Help-bot
+120 verbose already installed skipping grunt-eslint@ /Users/utkarsh/codes/Help-bot
+121 verbose already installed skipping grunt-exec@ /Users/utkarsh/codes/Help-bot
+122 verbose already installed skipping grunt-sass@ /Users/utkarsh/codes/Help-bot
+123 verbose already installed skipping load-grunt-tasks@ /Users/utkarsh/codes/Help-bot
+124 verbose already installed skipping jquery@3.2.1 /Users/utkarsh/codes/Help-bot
+125 verbose already installed skipping child_process@ /Users/utkarsh/codes/Help-bot
+126 verbose already installed skipping bootstrap@3.3.7 /Users/utkarsh/codes/Help-bot
+127 verbose request uri https://registry.npmjs.org/wndb-with-exceptions
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 18:30:49
+130 verbose etag W/"59131c6e-102f"
+131 verbose lastModified Wed, 10 May 2017 13:58:06 GMT
+132 http request GET https://registry.npmjs.org/wndb-with-exceptions
+133 verbose request uri https://registry.npmjs.org/wordnet-db
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 18:30:49
+136 verbose etag W/"59177763-1aa0"
+137 verbose lastModified Sat, 13 May 2017 21:15:15 GMT
+138 http request GET https://registry.npmjs.org/wordnet-db
+139 http 304 https://registry.npmjs.org/wndb-with-exceptions
+140 silly get cb [ 304,
+140 silly get   { date: 'Wed, 07 Jun 2017 12:46:45 GMT',
+140 silly get     via: '1.1 varnish',
+140 silly get     'cache-control': 'max-age=300',
+140 silly get     etag: 'W/"59131c6e-102f"',
+140 silly get     age: '0',
+140 silly get     connection: 'keep-alive',
+140 silly get     'x-served-by': 'cache-ams4148-AMS',
+140 silly get     'x-cache': 'MISS',
+140 silly get     'x-cache-hits': '0',
+140 silly get     'x-timer': 'S1496839606.790348,VS0,VE7',
+140 silly get     vary: 'Accept-Encoding' } ]
+141 verbose etag https://registry.npmjs.org/wndb-with-exceptions from cache
+142 verbose get saving wndb-with-exceptions to /Users/utkarsh/.npm/registry.npmjs.org/wndb-with-exceptions/.cache.json
+143 http 304 https://registry.npmjs.org/wordnet-db
+144 silly get cb [ 304,
+144 silly get   { date: 'Wed, 07 Jun 2017 12:46:45 GMT',
+144 silly get     via: '1.1 varnish',
+144 silly get     'cache-control': 'max-age=300',
+144 silly get     etag: 'W/"59177763-1aa0"',
+144 silly get     age: '0',
+144 silly get     connection: 'keep-alive',
+144 silly get     'x-served-by': 'cache-ams4432-AMS',
+144 silly get     'x-cache': 'MISS',
+144 silly get     'x-cache-hits': '0',
+144 silly get     'x-timer': 'S1496839606.780932,VS0,VE84',
+144 silly get     vary: 'Accept-Encoding' } ]
+145 verbose etag https://registry.npmjs.org/wordnet-db from cache
+146 verbose get saving wordnet-db to /Users/utkarsh/.npm/registry.npmjs.org/wordnet-db/.cache.json
+147 http 200 https://registry.npmjs.org/solr
+148 silly get cb [ 200,
+148 silly get   { server: 'nginx/1.10.1',
+148 silly get     'content-type': 'application/json',
+148 silly get     'last-modified': 'Sun, 15 Jan 2017 20:34:22 GMT',
+148 silly get     etag: 'W/"587bdcce-353c"',
+148 silly get     'content-encoding': 'gzip',
+148 silly get     'cache-control': 'max-age=300',
+148 silly get     'content-length': '2382',
+148 silly get     'accept-ranges': 'bytes',
+148 silly get     date: 'Wed, 07 Jun 2017 12:46:45 GMT',
+148 silly get     via: '1.1 varnish',
+148 silly get     age: '0',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-served-by': 'cache-ams4433-AMS',
+148 silly get     'x-cache': 'MISS',
+148 silly get     'x-cache-hits': '0',
+148 silly get     'x-timer': 'S1496839606.809962,VS0,VE42',
+148 silly get     vary: 'Accept-Encoding' } ]
+149 verbose get saving solr to /Users/utkarsh/.npm/registry.npmjs.org/solr/.cache.json
+150 silly addNameRange number 2 { name: 'wndb-with-exceptions', range: '*', hasData: true }
+151 silly addNameRange versions [ 'wndb-with-exceptions', [ '3.0.1', '3.0.2' ] ]
+152 silly addNamed wndb-with-exceptions@3.0.2
+153 verbose addNamed "3.0.2" is a plain semver version for wndb-with-exceptions
+154 silly addNameRange number 2 { name: 'wordnet-db', range: '*', hasData: true }
+155 silly addNameRange versions [ 'wordnet-db', [ '3.1.2', '3.1.3', '3.1.4' ] ]
+156 silly addNamed wordnet-db@3.1.4
+157 verbose addNamed "3.1.4" is a plain semver version for wordnet-db
+158 silly addNameRange number 2 { name: 'solr', range: '*', hasData: true }
+159 silly addNameRange versions [ 'solr',
+159 silly addNameRange   [ '0.1.0',
+159 silly addNameRange     '0.1.1',
+159 silly addNameRange     '0.1.3',
+159 silly addNameRange     '0.1.4',
+159 silly addNameRange     '0.1.5',
+159 silly addNameRange     '0.1.6',
+159 silly addNameRange     '0.2.0',
+159 silly addNameRange     '0.2.1',
+159 silly addNameRange     '0.2.2',
+159 silly addNameRange     '0.3.0' ] ]
+160 silly addNamed solr@0.3.0
+161 verbose addNamed "0.3.0" is a plain semver version for solr
+162 silly cache afterAdd wndb-with-exceptions@3.0.2
+163 verbose afterAdd /Users/utkarsh/.npm/wndb-with-exceptions/3.0.2/package/package.json not in flight; writing
+164 silly mapToRegistry name solr
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry uri https://registry.npmjs.org/solr
+168 verbose addRemoteTarball https://registry.npmjs.org/solr/-/solr-0.3.0.tgz not in flight; adding
+169 verbose addRemoteTarball [ 'https://registry.npmjs.org/solr/-/solr-0.3.0.tgz',
+169 verbose addRemoteTarball   '6cef3474ebe1bdcdaf3608f6585362d7235e4be4' ]
+170 silly cache afterAdd wordnet-db@3.1.4
+171 verbose afterAdd /Users/utkarsh/.npm/wordnet-db/3.1.4/package/package.json not in flight; writing
+172 info retry fetch attempt 1 at 18:30:50
+173 info attempt registry request try #1 at 18:30:50
+174 http fetch GET https://registry.npmjs.org/solr/-/solr-0.3.0.tgz
+175 verbose afterAdd /Users/utkarsh/.npm/wndb-with-exceptions/3.0.2/package/package.json written
+176 verbose afterAdd /Users/utkarsh/.npm/wordnet-db/3.1.4/package/package.json written
+177 http fetch 200 https://registry.npmjs.org/solr/-/solr-0.3.0.tgz
+178 silly fetchAndShaCheck shasum 6cef3474ebe1bdcdaf3608f6585362d7235e4be4
+179 verbose addTmpTarball /var/folders/w4/441mctdj753052q25c6cx9v00000gp/T/npm-26046-936fdf27/registry.npmjs.org/solr/-/solr-0.3.0.tgz not in flight; adding
+180 verbose addTmpTarball already have metadata; skipping unpack for solr@0.3.0
+181 silly cache afterAdd solr@0.3.0
+182 verbose afterAdd /Users/utkarsh/.npm/solr/0.3.0/package/package.json not in flight; writing
+183 verbose afterAdd /Users/utkarsh/.npm/solr/0.3.0/package/package.json written
+184 silly install resolved [ { author: { name: 'Stuart Watt', email: 'stuart@morungos.com.com' },
+184 silly install resolved     name: 'wndb-with-exceptions',
+184 silly install resolved     description: 'WordNet exception files',
+184 silly install resolved     keywords: [ 'WordNet' ],
+184 silly install resolved     version: '3.0.2',
+184 silly install resolved     homepage: 'http://wordnet.princeton.edu/',
+184 silly install resolved     repository:
+184 silly install resolved      { type: 'git',
+184 silly install resolved        url: 'git+ssh://git@github.com/morungos/WNdb-with-exceptions.git' },
+184 silly install resolved     dependencies: { tar: 'latest' },
+184 silly install resolved     devDependencies: {},
+184 silly install resolved     optionalDependencies: {},
+184 silly install resolved     engines: { node: '>=0.6.0' },
+184 silly install resolved     scripts: { postinstall: 'node unpack.js WNdb-3.0.tar.gz' },
+184 silly install resolved     license: 'SEE LICENSE IN LICENSE',
+184 silly install resolved     gitHead: '6a1952f9ad3c79751aab6649386b833403033cc1',
+184 silly install resolved     bugs: { url: 'https://github.com/morungos/WNdb-with-exceptions/issues' },
+184 silly install resolved     _id: 'wndb-with-exceptions@3.0.2',
+184 silly install resolved     _shasum: '7048c1be7e0d13d231a51e408e0b37426000bcbb',
+184 silly install resolved     _from: 'wndb-with-exceptions@*',
+184 silly install resolved     _npmVersion: '3.10.10',
+184 silly install resolved     _nodeVersion: '6.10.0',
+184 silly install resolved     _npmUser: { name: 'morungos', email: 'stuart@morungos.com' },
+184 silly install resolved     dist:
+184 silly install resolved      { shasum: '7048c1be7e0d13d231a51e408e0b37426000bcbb',
+184 silly install resolved        tarball: 'https://registry.npmjs.org/wndb-with-exceptions/-/wndb-with-exceptions-3.0.2.tgz' },
+184 silly install resolved     maintainers: [ [Object] ],
+184 silly install resolved     _npmOperationalInternal:
+184 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+184 silly install resolved        tmp: 'tmp/wndb-with-exceptions-3.0.2.tgz_1494424683286_0.46634211554192007' },
+184 silly install resolved     directories: {},
+184 silly install resolved     _resolved: 'https://registry.npmjs.org/wndb-with-exceptions/-/wndb-with-exceptions-3.0.2.tgz',
+184 silly install resolved     readme: 'ERROR: No README data found!' },
+184 silly install resolved   { author: { name: 'Moos', email: 'mooster@42at.com' },
+184 silly install resolved     name: 'wordnet-db',
+184 silly install resolved     description: 'WordNet 3.1 Database files',
+184 silly install resolved     keywords: [ 'WordNet', 'wordpos', 'natural', 'pos' ],
+184 silly install resolved     version: '3.1.4',
+184 silly install resolved     homepage: 'http://wordnet.princeton.edu/',
+184 silly install resolved     license: 'MIT',
+184 silly install resolved     repository: { type: 'git', url: 'git://github.com/moos/wordnet-db.git' },
+184 silly install resolved     dependencies: { tar: '^3.1' },
+184 silly install resolved     devDependencies: {},
+184 silly install resolved     optionalDependencies: {},
+184 silly install resolved     engines: { node: '>=0.6.0' },
+184 silly install resolved     scripts: { postinstall: 'node unpack.js WNdb-3.1.tar.gz' },
+184 silly install resolved     gitHead: '913f0e32c5f10269d4e9c7add8cf8539c141a112',
+184 silly install resolved     bugs: { url: 'https://github.com/moos/wordnet-db/issues' },
+184 silly install resolved     _id: 'wordnet-db@3.1.4',
+184 silly install resolved     _shasum: '840faad3a4c6b781b6f5d5978e1f7771ec8f3d5f',
+184 silly install resolved     _from: 'wordnet-db@*',
+184 silly install resolved     _npmVersion: '4.2.0',
+184 silly install resolved     _nodeVersion: '7.3.0',
+184 silly install resolved     _npmUser: { name: 'moos', email: 'mooster@42at.com' },
+184 silly install resolved     dist:
+184 silly install resolved      { shasum: '840faad3a4c6b781b6f5d5978e1f7771ec8f3d5f',
+184 silly install resolved        tarball: 'https://registry.npmjs.org/wordnet-db/-/wordnet-db-3.1.4.tgz' },
+184 silly install resolved     maintainers: [ [Object] ],
+184 silly install resolved     _npmOperationalInternal:
+184 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+184 silly install resolved        tmp: 'tmp/wordnet-db-3.1.4.tgz_1494710114714_0.4128382734488696' },
+184 silly install resolved     directories: {},
+184 silly install resolved     _resolved: 'https://registry.npmjs.org/wordnet-db/-/wordnet-db-3.1.4.tgz',
+184 silly install resolved     readme: 'ERROR: No README data found!' },
+184 silly install resolved   { name: 'solr',
+184 silly install resolved     description: 'A low-level Solr client',
+184 silly install resolved     version: '0.3.0',
+184 silly install resolved     author: { name: 'Gabriel Farrell', email: 'gsf747@gmail.com' },
+184 silly install resolved     contributors:
+184 silly install resolved      [ [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object],
+184 silly install resolved        [Object] ],
+184 silly install resolved     engines: { node: '>=0.4.0' },
+184 silly install resolved     main: 'lib/solr',
+184 silly install resolved     repository:
+184 silly install resolved      { type: 'git',
+184 silly install resolved        url: 'https://github.com/pabloviquez/node-solr.git' },
+184 silly install resolved     scripts: { test: 'find test/test-*.js | xargs -n 1 -t node' },
+184 silly install resolved     gitHead: 'e4097a4f5312ce846a80b6a842ee870ffe5d40ba',
+184 silly install resolved     bugs: { url: 'https://github.com/pabloviquez/node-solr/issues' },
+184 silly install resolved     homepage: 'https://github.com/pabloviquez/node-solr',
+184 silly install resolved     _id: 'solr@0.3.0',
+184 silly install resolved     _shasum: '6cef3474ebe1bdcdaf3608f6585362d7235e4be4',
+184 silly install resolved     _from: 'solr@*',
+184 silly install resolved     _npmVersion: '1.4.28',
+184 silly install resolved     _npmUser: { name: 'gsf', email: 'g@gsf.io' },
+184 silly install resolved     maintainers: [ [Object] ],
+184 silly install resolved     dist:
+184 silly install resolved      { shasum: '6cef3474ebe1bdcdaf3608f6585362d7235e4be4',
+184 silly install resolved        tarball: 'https://registry.npmjs.org/solr/-/solr-0.3.0.tgz' },
+184 silly install resolved     directories: {},
+184 silly install resolved     _resolved: 'https://registry.npmjs.org/solr/-/solr-0.3.0.tgz' } ]
+185 info install wndb-with-exceptions@3.0.2 into /Users/utkarsh/codes/Help-bot
+186 info install wordnet-db@3.1.4 into /Users/utkarsh/codes/Help-bot
+187 info install solr@0.3.0 into /Users/utkarsh/codes/Help-bot
+188 info installOne wndb-with-exceptions@3.0.2
+189 verbose installOne of wndb-with-exceptions to /Users/utkarsh/codes/Help-bot not in flight; installing
+190 info installOne wordnet-db@3.1.4
+191 verbose installOne of wordnet-db to /Users/utkarsh/codes/Help-bot not in flight; installing
+192 info installOne solr@0.3.0
+193 verbose installOne of solr to /Users/utkarsh/codes/Help-bot not in flight; installing
+194 verbose lock using /Users/utkarsh/.npm/_locks/wndb-with-exceptions-14636f62dc4a2f26.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+195 verbose lock using /Users/utkarsh/.npm/_locks/wordnet-db-9f4d2adee6c9678d.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+196 verbose lock using /Users/utkarsh/.npm/_locks/solr-315d5354db3132b9.lock for /Users/utkarsh/codes/Help-bot/node_modules/solr
+197 silly install write writing wndb-with-exceptions 3.0.2 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+198 silly install write writing wordnet-db 3.1.4 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+199 silly install write writing solr 0.3.0 to /Users/utkarsh/codes/Help-bot/node_modules/solr
+200 verbose unbuild node_modules/wndb-with-exceptions
+201 verbose unbuild node_modules/wordnet-db
+202 verbose unbuild node_modules/solr
+203 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions is being purged from base /Users/utkarsh/codes/Help-bot
+204 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+205 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db is being purged from base /Users/utkarsh/codes/Help-bot
+206 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+207 verbose tar unpack /Users/utkarsh/.npm/wndb-with-exceptions/3.0.2/package.tgz
+208 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+209 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions is being purged
+210 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+211 verbose tar unpack /Users/utkarsh/.npm/wordnet-db/3.1.4/package.tgz
+212 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+213 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db is being purged
+214 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+215 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/solr is being purged from base /Users/utkarsh/codes/Help-bot
+216 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/solr
+217 silly gunzTarPerm modes [ '755', '644' ]
+218 silly gunzTarPerm modes [ '755', '644' ]
+219 verbose tar unpack /Users/utkarsh/.npm/solr/0.3.0/package.tgz
+220 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/solr
+221 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/solr is being purged
+222 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/solr
+223 silly gunzTarPerm modes [ '755', '644' ]
+224 silly gunzTarPerm extractEntry package.json
+225 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+226 silly gunzTarPerm extractEntry README
+227 silly gunzTarPerm modified mode [ 'README', 436, 420 ]
+228 silly gunzTarPerm extractEntry README.md
+229 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+230 silly gunzTarPerm extractEntry package.json
+231 silly gunzTarPerm extractEntry .npmignore
+232 silly gunzTarPerm extractEntry README.md
+233 silly gunzTarPerm extractEntry LICENSE
+234 silly gunzTarPerm extractEntry unpack.js
+235 silly gunzTarPerm extractEntry index.js
+236 silly gunzTarPerm extractEntry data/adj.exc
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm extractEntry .npmignore
+239 silly gunzTarPerm extractEntry README.md
+240 silly gunzTarPerm extractEntry data/adv.exc
+241 silly gunzTarPerm extractEntry LICENSE
+242 silly gunzTarPerm extractEntry index.js
+243 silly gunzTarPerm extractEntry LICENSE
+244 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+245 silly gunzTarPerm extractEntry index.js
+246 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+247 silly gunzTarPerm extractEntry lib/solr.js
+248 silly gunzTarPerm modified mode [ 'lib/solr.js', 436, 420 ]
+249 silly gunzTarPerm extractEntry test/common.js
+250 silly gunzTarPerm modified mode [ 'test/common.js', 436, 420 ]
+251 silly gunzTarPerm extractEntry test/test-auth.js
+252 silly gunzTarPerm modified mode [ 'test/test-auth.js', 436, 420 ]
+253 silly gunzTarPerm extractEntry test/test-inheritance.js
+254 silly gunzTarPerm modified mode [ 'test/test-inheritance.js', 436, 420 ]
+255 silly gunzTarPerm extractEntry test/test-post.js
+256 silly gunzTarPerm modified mode [ 'test/test-post.js', 436, 420 ]
+257 silly gunzTarPerm extractEntry test/test-query.js
+258 silly gunzTarPerm modified mode [ 'test/test-query.js', 436, 420 ]
+259 silly gunzTarPerm extractEntry test/test-update-array.js
+260 silly gunzTarPerm modified mode [ 'test/test-update-array.js', 436, 420 ]
+261 silly gunzTarPerm extractEntry test/test-update-params.js
+262 silly gunzTarPerm modified mode [ 'test/test-update-params.js', 436, 420 ]
+263 silly gunzTarPerm extractEntry test/test-update-xml.js
+264 silly gunzTarPerm modified mode [ 'test/test-update-xml.js', 436, 420 ]
+265 silly gunzTarPerm extractEntry test/test-update.js
+266 silly gunzTarPerm modified mode [ 'test/test-update.js', 436, 420 ]
+267 silly gunzTarPerm extractEntry data/noun.exc
+268 silly gunzTarPerm extractEntry data/verb.exc
+269 silly gunzTarPerm extractEntry CHANGES.md
+270 silly gunzTarPerm extractEntry WNdb-3.0.tar.gz
+271 silly gunzTarPerm extractEntry unpack.js
+272 silly gunzTarPerm extractEntry WNdb-3.1.tar.gz
+273 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/solr/package.json
+274 info preinstall solr@0.3.0
+275 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/solr/package.json
+276 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/solr/package.json
+277 silly install resolved []
+278 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/solr
+279 info build /Users/utkarsh/codes/Help-bot/node_modules/solr
+280 info linkStuff solr@0.3.0
+281 silly linkStuff solr@0.3.0 has /Users/utkarsh/codes/Help-bot/node_modules as its parent node_modules
+282 verbose linkBins solr@0.3.0
+283 verbose linkMans solr@0.3.0
+284 verbose rebuildBundles solr@0.3.0
+285 info install solr@0.3.0
+286 info postinstall solr@0.3.0
+287 verbose unlock done using /Users/utkarsh/.npm/_locks/solr-315d5354db3132b9.lock for /Users/utkarsh/codes/Help-bot/node_modules/solr
+288 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/package.json
+289 info preinstall wndb-with-exceptions@3.0.2
+290 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/package.json
+291 silly prepareForInstallMany adding tar@latest from wndb-with-exceptions dependencies
+292 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/package.json
+293 silly cache add args [ 'tar@latest', null ]
+294 verbose cache add spec tar@latest
+295 silly cache add parsed spec { raw: 'tar@latest',
+295 silly cache add   scope: null,
+295 silly cache add   name: 'tar',
+295 silly cache add   rawSpec: 'latest',
+295 silly cache add   spec: 'latest',
+295 silly cache add   type: 'tag' }
+296 silly addNamed tar@latest
+297 verbose addNamed "latest" is being treated as a dist-tag for tar
+298 info addNameTag [ 'tar', 'latest' ]
+299 silly mapToRegistry name tar
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry uri https://registry.npmjs.org/tar
+303 verbose addNameTag registry:https://registry.npmjs.org/tar not in flight; fetching
+304 verbose request uri https://registry.npmjs.org/tar
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 18:30:52
+307 verbose etag W/"5933e093-13154"
+308 verbose lastModified Sun, 04 Jun 2017 10:27:31 GMT
+309 http request GET https://registry.npmjs.org/tar
+310 silly gunzTarPerm extractEntry .travis.yml
+311 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/package.json
+312 info preinstall wordnet-db@3.1.4
+313 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/package.json
+314 silly prepareForInstallMany adding tar@^3.1 from wordnet-db dependencies
+315 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/package.json
+316 silly cache add args [ 'tar@^3.1', null ]
+317 verbose cache add spec tar@^3.1
+318 silly cache add parsed spec { raw: 'tar@^3.1',
+318 silly cache add   scope: null,
+318 silly cache add   name: 'tar',
+318 silly cache add   rawSpec: '^3.1',
+318 silly cache add   spec: '>=3.1.0 <4.0.0',
+318 silly cache add   type: 'range' }
+319 silly addNamed tar@>=3.1.0 <4.0.0
+320 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for tar
+321 silly addNameRange { name: 'tar', range: '>=3.1.0 <4.0.0', hasData: false }
+322 silly mapToRegistry name tar
+323 silly mapToRegistry using default registry
+324 silly mapToRegistry registry https://registry.npmjs.org/
+325 silly mapToRegistry uri https://registry.npmjs.org/tar
+326 verbose addNameRange registry:https://registry.npmjs.org/tar already in flight; waiting
+327 http 304 https://registry.npmjs.org/tar
+328 silly get cb [ 304,
+328 silly get   { date: 'Wed, 07 Jun 2017 12:47:07 GMT',
+328 silly get     via: '1.1 varnish',
+328 silly get     'cache-control': 'max-age=300',
+328 silly get     etag: 'W/"5933e093-13154"',
+328 silly get     age: '111',
+328 silly get     connection: 'keep-alive',
+328 silly get     'x-served-by': 'cache-ams4124-AMS',
+328 silly get     'x-cache': 'HIT',
+328 silly get     'x-cache-hits': '3',
+328 silly get     'x-timer': 'S1496839628.820244,VS0,VE0',
+328 silly get     vary: 'Accept-Encoding' } ]
+329 verbose etag https://registry.npmjs.org/tar from cache
+330 verbose get saving tar to /Users/utkarsh/.npm/registry.npmjs.org/tar/.cache.json
+331 silly addNameTag next cb for tar with tag latest
+332 silly addNamed tar@3.1.5
+333 verbose addNamed "3.1.5" is a plain semver version for tar
+334 silly addNameRange number 2 { name: 'tar', range: '>=3.1.0 <4.0.0', hasData: true }
+335 silly addNameRange versions [ 'tar',
+335 silly addNameRange   [ '0.0.1',
+335 silly addNameRange     '0.1.0',
+335 silly addNameRange     '0.1.2',
+335 silly addNameRange     '0.1.3',
+335 silly addNameRange     '0.1.4',
+335 silly addNameRange     '0.1.5',
+335 silly addNameRange     '0.1.6',
+335 silly addNameRange     '0.1.7',
+335 silly addNameRange     '0.1.8',
+335 silly addNameRange     '0.1.9',
+335 silly addNameRange     '0.1.10',
+335 silly addNameRange     '0.1.11',
+335 silly addNameRange     '0.1.12',
+335 silly addNameRange     '0.1.13',
+335 silly addNameRange     '0.1.14',
+335 silly addNameRange     '0.1.15',
+335 silly addNameRange     '0.1.16',
+335 silly addNameRange     '0.1.17',
+335 silly addNameRange     '0.1.18',
+335 silly addNameRange     '0.1.19',
+335 silly addNameRange     '0.1.20',
+335 silly addNameRange     '1.0.0',
+335 silly addNameRange     '1.0.1',
+335 silly addNameRange     '1.0.2',
+335 silly addNameRange     '1.0.3',
+335 silly addNameRange     '2.0.0',
+335 silly addNameRange     '2.0.1',
+335 silly addNameRange     '2.1.0',
+335 silly addNameRange     '2.1.1',
+335 silly addNameRange     '2.2.0',
+335 silly addNameRange     '2.2.1',
+335 silly addNameRange     '3.0.0',
+335 silly addNameRange     '3.0.1',
+335 silly addNameRange     '3.1.0',
+335 silly addNameRange     '3.1.1',
+335 silly addNameRange     '3.1.2',
+335 silly addNameRange     '3.1.3',
+335 silly addNameRange     '3.1.4',
+335 silly addNameRange     '3.1.5' ] ]
+336 silly addNamed tar@3.1.5
+337 verbose addNamed "3.1.5" is a plain semver version for tar
+338 silly cache afterAdd tar@3.1.5
+339 verbose afterAdd /Users/utkarsh/.npm/tar/3.1.5/package/package.json not in flight; writing
+340 silly cache afterAdd tar@3.1.5
+341 verbose afterAdd /Users/utkarsh/.npm/tar/3.1.5/package/package.json already in flight; not writing
+342 verbose afterAdd /Users/utkarsh/.npm/tar/3.1.5/package/package.json written
+343 silly install resolved [ { author:
+343 silly install resolved      { name: 'Isaac Z. Schlueter',
+343 silly install resolved        email: 'i@izs.me',
+343 silly install resolved        url: 'http://blog.izs.me/' },
+343 silly install resolved     name: 'tar',
+343 silly install resolved     description: 'tar for node',
+343 silly install resolved     version: '3.1.5',
+343 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/npm/node-tar.git' },
+343 silly install resolved     scripts:
+343 silly install resolved      { test: 'tap test/*.js --100 -J --coverage-report=text',
+343 silly install resolved        preversion: 'npm test',
+343 silly install resolved        postversion: 'npm publish',
+343 silly install resolved        postpublish: 'git push origin --all; git push origin --tags',
+343 silly install resolved        genparse: 'node scripts/generate-parse-fixtures.js',
+343 silly install resolved        bench: 'for i in benchmarks/*/*.js; do echo $i; for j in {1..5}; do node $i || break; done; done' },
+343 silly install resolved     dependencies:
+343 silly install resolved      { minipass: '^2.0.2',
+343 silly install resolved        minizlib: '^1.0.3',
+343 silly install resolved        mkdirp: '^0.5.0',
+343 silly install resolved        yallist: '^3.0.2' },
+343 silly install resolved     devDependencies:
+343 silly install resolved      { chmodr: '^1.0.2',
+343 silly install resolved        'events-to-array': '^1.1.2',
+343 silly install resolved        'mutate-fs': '^1.1.0',
+343 silly install resolved        rimraf: '1.x',
+343 silly install resolved        tap: '^10.3.3',
+343 silly install resolved        'tar-fs': '^1.15.2',
+343 silly install resolved        'tar-stream': '^1.5.2' },
+343 silly install resolved     license: 'ISC',
+343 silly install resolved     engines: { node: '>=4' },
+343 silly install resolved     files: [ 'index.js', 'lib/' ],
+343 silly install resolved     gitHead: 'fce07b25fae8b42d0f8e594f7d4d52e7077a2596',
+343 silly install resolved     bugs: { url: 'https://github.com/npm/node-tar/issues' },
+343 silly install resolved     homepage: 'https://github.com/npm/node-tar#readme',
+343 silly install resolved     _id: 'tar@3.1.5',
+343 silly install resolved     _npmVersion: '5.0.1',
+343 silly install resolved     _nodeVersion: '8.0.0',
+343 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+343 silly install resolved     dist:
+343 silly install resolved      { integrity: 'sha512-TKJKz1fqBOZBaIQ/MGRKU0EnTGmKMLy4ReTRgP10AgtfOWBbj9PBg4MgY80GFpqGbs2EzcIctW5gbwbP4woDYg==',
+343 silly install resolved        shasum: '4981e97ab7bad4cb1d5da9232047c9047a681aef',
+343 silly install resolved        tarball: 'https://registry.npmjs.org/tar/-/tar-3.1.5.tgz' },
+343 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+343 silly install resolved     _npmOperationalInternal:
+343 silly install resolved      { host: 's3://npm-registry-packages',
+343 silly install resolved        tmp: 'tmp/tar-3.1.5.tgz_1496449018542_0.8640544661320746' },
+343 silly install resolved     directories: {},
+343 silly install resolved     _shasum: '4981e97ab7bad4cb1d5da9232047c9047a681aef',
+343 silly install resolved     _resolved: 'https://registry.npmjs.org/tar/-/tar-3.1.5.tgz',
+343 silly install resolved     _from: 'tar@latest',
+343 silly install resolved     readme: 'ERROR: No README data found!' } ]
+344 info install tar@3.1.5 into /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+345 info installOne tar@3.1.5
+346 verbose installOne of tar to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions not in flight; installing
+347 silly install resolved [ { author:
+347 silly install resolved      { name: 'Isaac Z. Schlueter',
+347 silly install resolved        email: 'i@izs.me',
+347 silly install resolved        url: 'http://blog.izs.me/' },
+347 silly install resolved     name: 'tar',
+347 silly install resolved     description: 'tar for node',
+347 silly install resolved     version: '3.1.5',
+347 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/npm/node-tar.git' },
+347 silly install resolved     scripts:
+347 silly install resolved      { test: 'tap test/*.js --100 -J --coverage-report=text',
+347 silly install resolved        preversion: 'npm test',
+347 silly install resolved        postversion: 'npm publish',
+347 silly install resolved        postpublish: 'git push origin --all; git push origin --tags',
+347 silly install resolved        genparse: 'node scripts/generate-parse-fixtures.js',
+347 silly install resolved        bench: 'for i in benchmarks/*/*.js; do echo $i; for j in {1..5}; do node $i || break; done; done' },
+347 silly install resolved     dependencies:
+347 silly install resolved      { minipass: '^2.0.2',
+347 silly install resolved        minizlib: '^1.0.3',
+347 silly install resolved        mkdirp: '^0.5.0',
+347 silly install resolved        yallist: '^3.0.2' },
+347 silly install resolved     devDependencies:
+347 silly install resolved      { chmodr: '^1.0.2',
+347 silly install resolved        'events-to-array': '^1.1.2',
+347 silly install resolved        'mutate-fs': '^1.1.0',
+347 silly install resolved        rimraf: '1.x',
+347 silly install resolved        tap: '^10.3.3',
+347 silly install resolved        'tar-fs': '^1.15.2',
+347 silly install resolved        'tar-stream': '^1.5.2' },
+347 silly install resolved     license: 'ISC',
+347 silly install resolved     engines: { node: '>=4' },
+347 silly install resolved     files: [ 'index.js', 'lib/' ],
+347 silly install resolved     gitHead: 'fce07b25fae8b42d0f8e594f7d4d52e7077a2596',
+347 silly install resolved     bugs: { url: 'https://github.com/npm/node-tar/issues' },
+347 silly install resolved     homepage: 'https://github.com/npm/node-tar#readme',
+347 silly install resolved     _id: 'tar@3.1.5',
+347 silly install resolved     _npmVersion: '5.0.1',
+347 silly install resolved     _nodeVersion: '8.0.0',
+347 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+347 silly install resolved     dist:
+347 silly install resolved      { integrity: 'sha512-TKJKz1fqBOZBaIQ/MGRKU0EnTGmKMLy4ReTRgP10AgtfOWBbj9PBg4MgY80GFpqGbs2EzcIctW5gbwbP4woDYg==',
+347 silly install resolved        shasum: '4981e97ab7bad4cb1d5da9232047c9047a681aef',
+347 silly install resolved        tarball: 'https://registry.npmjs.org/tar/-/tar-3.1.5.tgz' },
+347 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+347 silly install resolved     _npmOperationalInternal:
+347 silly install resolved      { host: 's3://npm-registry-packages',
+347 silly install resolved        tmp: 'tmp/tar-3.1.5.tgz_1496449018542_0.8640544661320746' },
+347 silly install resolved     directories: {},
+347 silly install resolved     _shasum: '4981e97ab7bad4cb1d5da9232047c9047a681aef',
+347 silly install resolved     _resolved: 'https://registry.npmjs.org/tar/-/tar-3.1.5.tgz',
+347 silly install resolved     _from: 'tar@latest',
+347 silly install resolved     readme: 'ERROR: No README data found!' } ]
+348 info install tar@3.1.5 into /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+349 info installOne tar@3.1.5
+350 verbose installOne of tar to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db not in flight; installing
+351 verbose lock using /Users/utkarsh/.npm/_locks/tar-02bc0f3314942cb4.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+352 warn engine tar@3.1.5: wanted: {"node":">=4"} (current: {"node":"0.12.7","npm":"2.12.1"})
+353 silly install write writing tar 3.1.5 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+354 verbose lock using /Users/utkarsh/.npm/_locks/tar-79b1629addb09bd3.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+355 warn engine tar@3.1.5: wanted: {"node":">=4"} (current: {"node":"0.12.7","npm":"2.12.1"})
+356 silly install write writing tar 3.1.5 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+357 verbose unbuild node_modules/wndb-with-exceptions/node_modules/tar
+358 verbose unbuild node_modules/wordnet-db/node_modules/tar
+359 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar is being purged from base /Users/utkarsh/codes/Help-bot
+360 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+361 verbose tar unpack /Users/utkarsh/.npm/tar/3.1.5/package.tgz
+362 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+363 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar is being purged
+364 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+365 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar is being purged from base /Users/utkarsh/codes/Help-bot
+366 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+367 silly gunzTarPerm modes [ '755', '644' ]
+368 verbose tar unpack /Users/utkarsh/.npm/tar/3.1.5/package.tgz
+369 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+370 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar is being purged
+371 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm extractEntry package.json
+375 silly gunzTarPerm extractEntry README.md
+376 silly gunzTarPerm extractEntry LICENSE
+377 silly gunzTarPerm extractEntry README.md
+378 silly gunzTarPerm extractEntry LICENSE
+379 silly gunzTarPerm extractEntry index.js
+380 silly gunzTarPerm extractEntry lib/create.js
+381 silly gunzTarPerm extractEntry lib/list.js
+382 silly gunzTarPerm extractEntry index.js
+383 silly gunzTarPerm extractEntry lib/create.js
+384 silly gunzTarPerm extractEntry lib/list.js
+385 silly gunzTarPerm extractEntry lib/mkdir.js
+386 silly gunzTarPerm extractEntry lib/mkdir.js
+387 silly gunzTarPerm extractEntry lib/pack.js
+388 silly gunzTarPerm extractEntry lib/pack.js
+389 silly gunzTarPerm extractEntry lib/parse.js
+390 silly gunzTarPerm extractEntry lib/large-numbers.js
+391 silly gunzTarPerm extractEntry lib/parse.js
+392 silly gunzTarPerm extractEntry lib/large-numbers.js
+393 silly gunzTarPerm extractEntry lib/read-entry.js
+394 silly gunzTarPerm extractEntry lib/replace.js
+395 silly gunzTarPerm extractEntry lib/read-entry.js
+396 silly gunzTarPerm extractEntry lib/replace.js
+397 silly gunzTarPerm extractEntry lib/types.js
+398 silly gunzTarPerm extractEntry lib/unpack.js
+399 silly gunzTarPerm extractEntry lib/types.js
+400 silly gunzTarPerm extractEntry lib/unpack.js
+401 silly gunzTarPerm extractEntry lib/update.js
+402 silly gunzTarPerm extractEntry lib/high-level-opt.js
+403 silly gunzTarPerm extractEntry lib/update.js
+404 silly gunzTarPerm extractEntry lib/high-level-opt.js
+405 silly gunzTarPerm extractEntry lib/warn-mixin.js
+406 silly gunzTarPerm extractEntry lib/header.js
+407 silly gunzTarPerm extractEntry lib/warn-mixin.js
+408 silly gunzTarPerm extractEntry lib/header.js
+409 silly gunzTarPerm extractEntry lib/winchars.js
+410 silly gunzTarPerm extractEntry lib/extract.js
+411 silly gunzTarPerm extractEntry lib/winchars.js
+412 silly gunzTarPerm extractEntry lib/extract.js
+413 silly gunzTarPerm extractEntry lib/write-entry.js
+414 silly gunzTarPerm extractEntry lib/write-entry.js
+415 silly gunzTarPerm extractEntry lib/pax.js
+416 silly gunzTarPerm extractEntry lib/pax.js
+417 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/package.json
+418 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/package.json
+419 info preinstall tar@3.1.5
+420 info preinstall tar@3.1.5
+421 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/package.json
+422 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/package.json
+423 silly prepareForInstallMany adding minipass@^2.0.2 from tar dependencies
+424 silly prepareForInstallMany adding minizlib@^1.0.3 from tar dependencies
+425 silly prepareForInstallMany adding mkdirp@^0.5.0 from tar dependencies
+426 silly prepareForInstallMany adding yallist@^3.0.2 from tar dependencies
+427 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/package.json
+428 silly prepareForInstallMany adding minipass@^2.0.2 from tar dependencies
+429 silly prepareForInstallMany adding minizlib@^1.0.3 from tar dependencies
+430 silly prepareForInstallMany adding mkdirp@^0.5.0 from tar dependencies
+431 silly prepareForInstallMany adding yallist@^3.0.2 from tar dependencies
+432 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/package.json
+433 silly cache add args [ 'minipass@^2.0.2', null ]
+434 verbose cache add spec minipass@^2.0.2
+435 silly cache add args [ 'minizlib@^1.0.3', null ]
+436 verbose cache add spec minizlib@^1.0.3
+437 silly cache add args [ 'minipass@^2.0.2', null ]
+438 verbose cache add spec minipass@^2.0.2
+439 silly cache add args [ 'minizlib@^1.0.3', null ]
+440 verbose cache add spec minizlib@^1.0.3
+441 silly cache add parsed spec { raw: 'minipass@^2.0.2',
+441 silly cache add   scope: null,
+441 silly cache add   name: 'minipass',
+441 silly cache add   rawSpec: '^2.0.2',
+441 silly cache add   spec: '>=2.0.2 <3.0.0',
+441 silly cache add   type: 'range' }
+442 silly addNamed minipass@>=2.0.2 <3.0.0
+443 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for minipass
+444 silly addNameRange { name: 'minipass', range: '>=2.0.2 <3.0.0', hasData: false }
+445 silly mapToRegistry name minipass
+446 silly mapToRegistry using default registry
+447 silly mapToRegistry registry https://registry.npmjs.org/
+448 silly mapToRegistry uri https://registry.npmjs.org/minipass
+449 verbose addNameRange registry:https://registry.npmjs.org/minipass not in flight; fetching
+450 silly cache add parsed spec { raw: 'minizlib@^1.0.3',
+450 silly cache add   scope: null,
+450 silly cache add   name: 'minizlib',
+450 silly cache add   rawSpec: '^1.0.3',
+450 silly cache add   spec: '>=1.0.3 <2.0.0',
+450 silly cache add   type: 'range' }
+451 silly addNamed minizlib@>=1.0.3 <2.0.0
+452 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for minizlib
+453 silly addNameRange { name: 'minizlib', range: '>=1.0.3 <2.0.0', hasData: false }
+454 silly mapToRegistry name minizlib
+455 silly mapToRegistry using default registry
+456 silly mapToRegistry registry https://registry.npmjs.org/
+457 silly mapToRegistry uri https://registry.npmjs.org/minizlib
+458 verbose addNameRange registry:https://registry.npmjs.org/minizlib not in flight; fetching
+459 silly cache add parsed spec { raw: 'minipass@^2.0.2',
+459 silly cache add   scope: null,
+459 silly cache add   name: 'minipass',
+459 silly cache add   rawSpec: '^2.0.2',
+459 silly cache add   spec: '>=2.0.2 <3.0.0',
+459 silly cache add   type: 'range' }
+460 silly addNamed minipass@>=2.0.2 <3.0.0
+461 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for minipass
+462 silly addNameRange { name: 'minipass', range: '>=2.0.2 <3.0.0', hasData: false }
+463 silly mapToRegistry name minipass
+464 silly mapToRegistry using default registry
+465 silly mapToRegistry registry https://registry.npmjs.org/
+466 silly mapToRegistry uri https://registry.npmjs.org/minipass
+467 verbose addNameRange registry:https://registry.npmjs.org/minipass already in flight; waiting
+468 silly cache add parsed spec { raw: 'minizlib@^1.0.3',
+468 silly cache add   scope: null,
+468 silly cache add   name: 'minizlib',
+468 silly cache add   rawSpec: '^1.0.3',
+468 silly cache add   spec: '>=1.0.3 <2.0.0',
+468 silly cache add   type: 'range' }
+469 silly addNamed minizlib@>=1.0.3 <2.0.0
+470 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for minizlib
+471 silly addNameRange { name: 'minizlib', range: '>=1.0.3 <2.0.0', hasData: false }
+472 silly mapToRegistry name minizlib
+473 silly mapToRegistry using default registry
+474 silly mapToRegistry registry https://registry.npmjs.org/
+475 silly mapToRegistry uri https://registry.npmjs.org/minizlib
+476 verbose addNameRange registry:https://registry.npmjs.org/minizlib already in flight; waiting
+477 silly cache add args [ 'mkdirp@^0.5.0', null ]
+478 verbose cache add spec mkdirp@^0.5.0
+479 silly cache add args [ 'mkdirp@^0.5.0', null ]
+480 verbose cache add spec mkdirp@^0.5.0
+481 silly cache add parsed spec { raw: 'mkdirp@^0.5.0',
+481 silly cache add   scope: null,
+481 silly cache add   name: 'mkdirp',
+481 silly cache add   rawSpec: '^0.5.0',
+481 silly cache add   spec: '>=0.5.0 <0.6.0',
+481 silly cache add   type: 'range' }
+482 silly addNamed mkdirp@>=0.5.0 <0.6.0
+483 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for mkdirp
+484 silly addNameRange { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: false }
+485 silly mapToRegistry name mkdirp
+486 silly mapToRegistry using default registry
+487 silly mapToRegistry registry https://registry.npmjs.org/
+488 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+489 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+490 silly cache add parsed spec { raw: 'mkdirp@^0.5.0',
+490 silly cache add   scope: null,
+490 silly cache add   name: 'mkdirp',
+490 silly cache add   rawSpec: '^0.5.0',
+490 silly cache add   spec: '>=0.5.0 <0.6.0',
+490 silly cache add   type: 'range' }
+491 silly addNamed mkdirp@>=0.5.0 <0.6.0
+492 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for mkdirp
+493 silly addNameRange { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: false }
+494 silly mapToRegistry name mkdirp
+495 silly mapToRegistry using default registry
+496 silly mapToRegistry registry https://registry.npmjs.org/
+497 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+498 verbose addNameRange registry:https://registry.npmjs.org/mkdirp already in flight; waiting
+499 silly cache add args [ 'yallist@^3.0.2', null ]
+500 verbose cache add spec yallist@^3.0.2
+501 silly cache add args [ 'yallist@^3.0.2', null ]
+502 verbose cache add spec yallist@^3.0.2
+503 silly cache add parsed spec { raw: 'yallist@^3.0.2',
+503 silly cache add   scope: null,
+503 silly cache add   name: 'yallist',
+503 silly cache add   rawSpec: '^3.0.2',
+503 silly cache add   spec: '>=3.0.2 <4.0.0',
+503 silly cache add   type: 'range' }
+504 silly addNamed yallist@>=3.0.2 <4.0.0
+505 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for yallist
+506 silly addNameRange { name: 'yallist', range: '>=3.0.2 <4.0.0', hasData: false }
+507 silly mapToRegistry name yallist
+508 silly mapToRegistry using default registry
+509 silly mapToRegistry registry https://registry.npmjs.org/
+510 silly mapToRegistry uri https://registry.npmjs.org/yallist
+511 verbose addNameRange registry:https://registry.npmjs.org/yallist not in flight; fetching
+512 silly cache add parsed spec { raw: 'yallist@^3.0.2',
+512 silly cache add   scope: null,
+512 silly cache add   name: 'yallist',
+512 silly cache add   rawSpec: '^3.0.2',
+512 silly cache add   spec: '>=3.0.2 <4.0.0',
+512 silly cache add   type: 'range' }
+513 silly addNamed yallist@>=3.0.2 <4.0.0
+514 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for yallist
+515 silly addNameRange { name: 'yallist', range: '>=3.0.2 <4.0.0', hasData: false }
+516 silly mapToRegistry name yallist
+517 silly mapToRegistry using default registry
+518 silly mapToRegistry registry https://registry.npmjs.org/
+519 silly mapToRegistry uri https://registry.npmjs.org/yallist
+520 verbose addNameRange registry:https://registry.npmjs.org/yallist already in flight; waiting
+521 verbose request uri https://registry.npmjs.org/mkdirp
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 18:31:12
+524 verbose etag W/"5937dc64-6437"
+525 verbose lastModified Wed, 07 Jun 2017 10:58:44 GMT
+526 http request GET https://registry.npmjs.org/mkdirp
+527 verbose request uri https://registry.npmjs.org/yallist
+528 verbose request no auth needed
+529 info attempt registry request try #1 at 18:31:12
+530 verbose etag W/"592c5db2-4b91"
+531 verbose lastModified Mon, 29 May 2017 17:43:14 GMT
+532 http request GET https://registry.npmjs.org/yallist
+533 verbose request uri https://registry.npmjs.org/minizlib
+534 verbose request no auth needed
+535 info attempt registry request try #1 at 18:31:12
+536 verbose etag W/"590adfc2-268b"
+537 verbose lastModified Thu, 04 May 2017 08:01:06 GMT
+538 http request GET https://registry.npmjs.org/minizlib
+539 verbose request uri https://registry.npmjs.org/minipass
+540 verbose request no auth needed
+541 info attempt registry request try #1 at 18:31:12
+542 verbose etag W/"591348c9-6885"
+543 verbose lastModified Wed, 10 May 2017 17:07:21 GMT
+544 http request GET https://registry.npmjs.org/minipass
+545 http 304 https://registry.npmjs.org/minizlib
+546 silly get cb [ 304,
+546 silly get   { date: 'Wed, 07 Jun 2017 12:47:08 GMT',
+546 silly get     via: '1.1 varnish',
+546 silly get     'cache-control': 'max-age=300',
+546 silly get     etag: 'W/"590adfc2-268b"',
+546 silly get     age: '59',
+546 silly get     connection: 'keep-alive',
+546 silly get     'x-served-by': 'cache-ams4423-AMS',
+546 silly get     'x-cache': 'HIT',
+546 silly get     'x-cache-hits': '1',
+546 silly get     'x-timer': 'S1496839629.793751,VS0,VE0',
+546 silly get     vary: 'Accept-Encoding' } ]
+547 verbose etag https://registry.npmjs.org/minizlib from cache
+548 verbose get saving minizlib to /Users/utkarsh/.npm/registry.npmjs.org/minizlib/.cache.json
+549 http 304 https://registry.npmjs.org/minipass
+550 silly get cb [ 304,
+550 silly get   { date: 'Wed, 07 Jun 2017 12:47:08 GMT',
+550 silly get     via: '1.1 varnish',
+550 silly get     'cache-control': 'max-age=300',
+550 silly get     etag: 'W/"591348c9-6885"',
+550 silly get     age: '59',
+550 silly get     connection: 'keep-alive',
+550 silly get     'x-served-by': 'cache-ams4428-AMS',
+550 silly get     'x-cache': 'HIT',
+550 silly get     'x-cache-hits': '1',
+550 silly get     'x-timer': 'S1496839629.818517,VS0,VE0',
+550 silly get     vary: 'Accept-Encoding' } ]
+551 verbose etag https://registry.npmjs.org/minipass from cache
+552 verbose get saving minipass to /Users/utkarsh/.npm/registry.npmjs.org/minipass/.cache.json
+553 silly addNameRange number 2 { name: 'minizlib', range: '>=1.0.3 <2.0.0', hasData: true }
+554 silly addNameRange versions [ 'minizlib', [ '0.0.1', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+555 silly addNamed minizlib@1.0.3
+556 verbose addNamed "1.0.3" is a plain semver version for minizlib
+557 silly addNameRange number 2 { name: 'minizlib', range: '>=1.0.3 <2.0.0', hasData: true }
+558 silly addNameRange versions [ 'minizlib', [ '0.0.1', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+559 silly addNamed minizlib@1.0.3
+560 verbose addNamed "1.0.3" is a plain semver version for minizlib
+561 silly addNameRange number 2 { name: 'minipass', range: '>=2.0.2 <3.0.0', hasData: true }
+562 silly addNameRange versions [ 'minipass',
+562 silly addNameRange   [ '1.0.0',
+562 silly addNameRange     '1.0.1',
+562 silly addNameRange     '1.0.2',
+562 silly addNameRange     '1.1.0',
+562 silly addNameRange     '1.1.1',
+562 silly addNameRange     '1.1.2',
+562 silly addNameRange     '1.1.3',
+562 silly addNameRange     '1.1.4',
+562 silly addNameRange     '1.1.5',
+562 silly addNameRange     '1.1.6',
+562 silly addNameRange     '1.1.7',
+562 silly addNameRange     '1.1.8',
+562 silly addNameRange     '1.1.9',
+562 silly addNameRange     '1.1.10',
+562 silly addNameRange     '1.1.11',
+562 silly addNameRange     '1.2.0',
+562 silly addNameRange     '2.0.0',
+562 silly addNameRange     '2.0.1',
+562 silly addNameRange     '2.0.2' ] ]
+563 silly addNamed minipass@2.0.2
+564 verbose addNamed "2.0.2" is a plain semver version for minipass
+565 silly addNameRange number 2 { name: 'minipass', range: '>=2.0.2 <3.0.0', hasData: true }
+566 silly addNameRange versions [ 'minipass',
+566 silly addNameRange   [ '1.0.0',
+566 silly addNameRange     '1.0.1',
+566 silly addNameRange     '1.0.2',
+566 silly addNameRange     '1.1.0',
+566 silly addNameRange     '1.1.1',
+566 silly addNameRange     '1.1.2',
+566 silly addNameRange     '1.1.3',
+566 silly addNameRange     '1.1.4',
+566 silly addNameRange     '1.1.5',
+566 silly addNameRange     '1.1.6',
+566 silly addNameRange     '1.1.7',
+566 silly addNameRange     '1.1.8',
+566 silly addNameRange     '1.1.9',
+566 silly addNameRange     '1.1.10',
+566 silly addNameRange     '1.1.11',
+566 silly addNameRange     '1.2.0',
+566 silly addNameRange     '2.0.0',
+566 silly addNameRange     '2.0.1',
+566 silly addNameRange     '2.0.2' ] ]
+567 silly addNamed minipass@2.0.2
+568 verbose addNamed "2.0.2" is a plain semver version for minipass
+569 http 304 https://registry.npmjs.org/mkdirp
+570 silly get cb [ 304,
+570 silly get   { date: 'Wed, 07 Jun 2017 12:47:08 GMT',
+570 silly get     via: '1.1 varnish',
+570 silly get     'cache-control': 'max-age=300',
+570 silly get     etag: 'W/"5937dc64-6437"',
+570 silly get     age: '192',
+570 silly get     connection: 'keep-alive',
+570 silly get     'x-served-by': 'cache-ams4445-AMS',
+570 silly get     'x-cache': 'HIT',
+570 silly get     'x-cache-hits': '10',
+570 silly get     'x-timer': 'S1496839629.868745,VS0,VE0',
+570 silly get     vary: 'Accept-Encoding' } ]
+571 verbose etag https://registry.npmjs.org/mkdirp from cache
+572 verbose get saving mkdirp to /Users/utkarsh/.npm/registry.npmjs.org/mkdirp/.cache.json
+573 silly cache afterAdd minizlib@1.0.3
+574 verbose afterAdd /Users/utkarsh/.npm/minizlib/1.0.3/package/package.json not in flight; writing
+575 silly cache afterAdd minizlib@1.0.3
+576 verbose afterAdd /Users/utkarsh/.npm/minizlib/1.0.3/package/package.json already in flight; not writing
+577 silly cache afterAdd minipass@2.0.2
+578 verbose afterAdd /Users/utkarsh/.npm/minipass/2.0.2/package/package.json not in flight; writing
+579 silly cache afterAdd minipass@2.0.2
+580 verbose afterAdd /Users/utkarsh/.npm/minipass/2.0.2/package/package.json already in flight; not writing
+581 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: true }
+582 silly addNameRange versions [ 'mkdirp',
+582 silly addNameRange   [ '0.0.1',
+582 silly addNameRange     '0.0.2',
+582 silly addNameRange     '0.0.3',
+582 silly addNameRange     '0.0.4',
+582 silly addNameRange     '0.0.5',
+582 silly addNameRange     '0.0.6',
+582 silly addNameRange     '0.0.7',
+582 silly addNameRange     '0.1.0',
+582 silly addNameRange     '0.2.0',
+582 silly addNameRange     '0.2.1',
+582 silly addNameRange     '0.2.2',
+582 silly addNameRange     '0.3.0',
+582 silly addNameRange     '0.3.1',
+582 silly addNameRange     '0.3.2',
+582 silly addNameRange     '0.3.3',
+582 silly addNameRange     '0.3.4',
+582 silly addNameRange     '0.3.5',
+582 silly addNameRange     '0.4.0',
+582 silly addNameRange     '0.4.1',
+582 silly addNameRange     '0.4.2',
+582 silly addNameRange     '0.5.0',
+582 silly addNameRange     '0.5.1' ] ]
+583 silly addNamed mkdirp@0.5.1
+584 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+585 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: true }
+586 silly addNameRange versions [ 'mkdirp',
+586 silly addNameRange   [ '0.0.1',
+586 silly addNameRange     '0.0.2',
+586 silly addNameRange     '0.0.3',
+586 silly addNameRange     '0.0.4',
+586 silly addNameRange     '0.0.5',
+586 silly addNameRange     '0.0.6',
+586 silly addNameRange     '0.0.7',
+586 silly addNameRange     '0.1.0',
+586 silly addNameRange     '0.2.0',
+586 silly addNameRange     '0.2.1',
+586 silly addNameRange     '0.2.2',
+586 silly addNameRange     '0.3.0',
+586 silly addNameRange     '0.3.1',
+586 silly addNameRange     '0.3.2',
+586 silly addNameRange     '0.3.3',
+586 silly addNameRange     '0.3.4',
+586 silly addNameRange     '0.3.5',
+586 silly addNameRange     '0.4.0',
+586 silly addNameRange     '0.4.1',
+586 silly addNameRange     '0.4.2',
+586 silly addNameRange     '0.5.0',
+586 silly addNameRange     '0.5.1' ] ]
+587 silly addNamed mkdirp@0.5.1
+588 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+589 silly cache afterAdd mkdirp@0.5.1
+590 verbose afterAdd /Users/utkarsh/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+591 silly cache afterAdd mkdirp@0.5.1
+592 verbose afterAdd /Users/utkarsh/.npm/mkdirp/0.5.1/package/package.json already in flight; not writing
+593 verbose afterAdd /Users/utkarsh/.npm/minipass/2.0.2/package/package.json written
+594 verbose afterAdd /Users/utkarsh/.npm/mkdirp/0.5.1/package/package.json written
+595 verbose afterAdd /Users/utkarsh/.npm/minizlib/1.0.3/package/package.json written
+596 http 304 https://registry.npmjs.org/yallist
+597 silly get cb [ 304,
+597 silly get   { date: 'Wed, 07 Jun 2017 12:47:08 GMT',
+597 silly get     via: '1.1 varnish',
+597 silly get     'cache-control': 'max-age=300',
+597 silly get     etag: 'W/"592c5db2-4b91"',
+597 silly get     age: '248',
+597 silly get     connection: 'keep-alive',
+597 silly get     'x-served-by': 'cache-ams4430-AMS',
+597 silly get     'x-cache': 'HIT',
+597 silly get     'x-cache-hits': '5',
+597 silly get     'x-timer': 'S1496839629.910413,VS0,VE0',
+597 silly get     vary: 'Accept-Encoding' } ]
+598 verbose etag https://registry.npmjs.org/yallist from cache
+599 verbose get saving yallist to /Users/utkarsh/.npm/registry.npmjs.org/yallist/.cache.json
+600 silly addNameRange number 2 { name: 'yallist', range: '>=3.0.2 <4.0.0', hasData: true }
+601 silly addNameRange versions [ 'yallist',
+601 silly addNameRange   [ '1.0.0',
+601 silly addNameRange     '1.0.1',
+601 silly addNameRange     '1.0.2',
+601 silly addNameRange     '1.1.0',
+601 silly addNameRange     '2.0.0',
+601 silly addNameRange     '2.0.1',
+601 silly addNameRange     '2.1.0',
+601 silly addNameRange     '2.1.1',
+601 silly addNameRange     '3.0.0',
+601 silly addNameRange     '3.0.1',
+601 silly addNameRange     '2.1.2',
+601 silly addNameRange     '3.0.2' ] ]
+602 silly addNamed yallist@3.0.2
+603 verbose addNamed "3.0.2" is a plain semver version for yallist
+604 silly addNameRange number 2 { name: 'yallist', range: '>=3.0.2 <4.0.0', hasData: true }
+605 silly addNameRange versions [ 'yallist',
+605 silly addNameRange   [ '1.0.0',
+605 silly addNameRange     '1.0.1',
+605 silly addNameRange     '1.0.2',
+605 silly addNameRange     '1.1.0',
+605 silly addNameRange     '2.0.0',
+605 silly addNameRange     '2.0.1',
+605 silly addNameRange     '2.1.0',
+605 silly addNameRange     '2.1.1',
+605 silly addNameRange     '3.0.0',
+605 silly addNameRange     '3.0.1',
+605 silly addNameRange     '2.1.2',
+605 silly addNameRange     '3.0.2' ] ]
+606 silly addNamed yallist@3.0.2
+607 verbose addNamed "3.0.2" is a plain semver version for yallist
+608 silly cache afterAdd yallist@3.0.2
+609 verbose afterAdd /Users/utkarsh/.npm/yallist/3.0.2/package/package.json not in flight; writing
+610 silly cache afterAdd yallist@3.0.2
+611 verbose afterAdd /Users/utkarsh/.npm/yallist/3.0.2/package/package.json already in flight; not writing
+612 verbose afterAdd /Users/utkarsh/.npm/yallist/3.0.2/package/package.json written
+613 silly install resolved [ { name: 'minipass',
+613 silly install resolved     version: '2.0.2',
+613 silly install resolved     description: 'minimal implementation of a PassThrough stream',
+613 silly install resolved     main: 'index.js',
+613 silly install resolved     dependencies: { yallist: '^3.0.0' },
+613 silly install resolved     devDependencies: { 'end-of-stream': '^1.4.0', tap: '10' },
+613 silly install resolved     scripts:
+613 silly install resolved      { test: 'tap test/*.js --100',
+613 silly install resolved        preversion: 'npm test',
+613 silly install resolved        postversion: 'npm publish',
+613 silly install resolved        postpublish: 'git push origin --all; git push origin --tags' },
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/isaacs/minipass.git' },
+613 silly install resolved     keywords: [ 'passthrough', 'stream' ],
+613 silly install resolved     author:
+613 silly install resolved      { name: 'Isaac Z. Schlueter',
+613 silly install resolved        email: 'i@izs.me',
+613 silly install resolved        url: 'http://blog.izs.me/' },
+613 silly install resolved     license: 'ISC',
+613 silly install resolved     gitHead: 'b18627e376d16f9188cd4049efb8febacf8b2fa2',
+613 silly install resolved     bugs: { url: 'https://github.com/isaacs/minipass/issues' },
+613 silly install resolved     homepage: 'https://github.com/isaacs/minipass#readme',
+613 silly install resolved     _id: 'minipass@2.0.2',
+613 silly install resolved     _npmVersion: '5.0.0-beta.44',
+613 silly install resolved     _nodeVersion: '8.0.0-pre',
+613 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+613 silly install resolved     dist:
+613 silly install resolved      { integrity: 'sha512-DtFmHGmqDzlw/iUypeGvwFSbP3n7R6S0wcJ1GiQkKxM1aQigmCUaQLOT2fGQGNwZCKdqxTtC2NN5FzEWFiz+KA==',
+613 silly install resolved        shasum: 'fae5c78124051f56fd2007df0012e0dac7a752ce',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/minipass/-/minipass-2.0.2.tgz' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     _npmOperationalInternal:
+613 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+613 silly install resolved        tmp: 'tmp/minipass-2.0.2.tgz_1494436039082_0.553761099698022' },
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: 'fae5c78124051f56fd2007df0012e0dac7a752ce',
+613 silly install resolved     _resolved: 'https://registry.npmjs.org/minipass/-/minipass-2.0.2.tgz',
+613 silly install resolved     _from: 'minipass@>=2.0.2 <3.0.0',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'mkdirp',
+613 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+613 silly install resolved     version: '0.5.1',
+613 silly install resolved     author:
+613 silly install resolved      { name: 'James Halliday',
+613 silly install resolved        email: 'mail@substack.net',
+613 silly install resolved        url: 'http://substack.net' },
+613 silly install resolved     main: 'index.js',
+613 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/substack/node-mkdirp.git' },
+613 silly install resolved     scripts: { test: 'tap test/*.js' },
+613 silly install resolved     dependencies: { minimist: '0.0.8' },
+613 silly install resolved     devDependencies: { tap: '1', 'mock-fs': '2 >=2.7.0' },
+613 silly install resolved     bin: { mkdirp: 'bin/cmd.js' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     gitHead: 'd4eff0f06093aed4f387e88e9fc301cb76beedc7',
+613 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+613 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp#readme',
+613 silly install resolved     _id: 'mkdirp@0.5.1',
+613 silly install resolved     _shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+613 silly install resolved     _from: 'mkdirp@>=0.5.0 <0.6.0',
+613 silly install resolved     _npmVersion: '2.9.0',
+613 silly install resolved     _nodeVersion: '2.0.0',
+613 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'minizlib',
+613 silly install resolved     version: '1.0.3',
+613 silly install resolved     description: 'A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js\'s zlib binding.',
+613 silly install resolved     main: 'index.js',
+613 silly install resolved     dependencies: { minipass: '^2.0.0' },
+613 silly install resolved     scripts:
+613 silly install resolved      { test: 'tap test/*.js --100 -J',
+613 silly install resolved        preversion: 'npm test',
+613 silly install resolved        postversion: 'npm publish',
+613 silly install resolved        postpublish: 'git push origin --all; git push origin --tags' },
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/isaacs/minizlib.git' },
+613 silly install resolved     keywords:
+613 silly install resolved      [ 'zlib',
+613 silly install resolved        'gzip',
+613 silly install resolved        'gunzip',
+613 silly install resolved        'deflate',
+613 silly install resolved        'inflate',
+613 silly install resolved        'compression',
+613 silly install resolved        'zip',
+613 silly install resolved        'unzip' ],
+613 silly install resolved     author:
+613 silly install resolved      { name: 'Isaac Z. Schlueter',
+613 silly install resolved        email: 'i@izs.me',
+613 silly install resolved        url: 'http://blog.izs.me/' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     devDependencies: { tap: '^10.3.0' },
+613 silly install resolved     files: [ 'index.js', 'constants.js' ],
+613 silly install resolved     gitHead: '18adfc6e208468eae276617b34bb4dfaeec1f532',
+613 silly install resolved     bugs: { url: 'https://github.com/isaacs/minizlib/issues' },
+613 silly install resolved     homepage: 'https://github.com/isaacs/minizlib#readme',
+613 silly install resolved     _id: 'minizlib@1.0.3',
+613 silly install resolved     _shasum: 'd5c1abf77be154619952e253336eccab9b2a32f5',
+613 silly install resolved     _from: 'minizlib@>=1.0.3 <2.0.0',
+613 silly install resolved     _npmVersion: '4.5.0',
+613 silly install resolved     _nodeVersion: '8.0.0-pre',
+613 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: 'd5c1abf77be154619952e253336eccab9b2a32f5',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/minizlib/-/minizlib-1.0.3.tgz' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     _npmOperationalInternal:
+613 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+613 silly install resolved        tmp: 'tmp/minizlib-1.0.3.tgz_1493884866315_0.7689040366094559' },
+613 silly install resolved     directories: {},
+613 silly install resolved     _resolved: 'https://registry.npmjs.org/minizlib/-/minizlib-1.0.3.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'yallist',
+613 silly install resolved     version: '3.0.2',
+613 silly install resolved     description: 'Yet Another Linked List',
+613 silly install resolved     main: 'yallist.js',
+613 silly install resolved     directories: { test: 'test' },
+613 silly install resolved     files: [ 'yallist.js', 'iterator.js' ],
+613 silly install resolved     dependencies: {},
+613 silly install resolved     devDependencies: { tap: '^10.3.0' },
+613 silly install resolved     scripts:
+613 silly install resolved      { test: 'tap test/*.js --100',
+613 silly install resolved        preversion: 'npm test',
+613 silly install resolved        postversion: 'npm publish',
+613 silly install resolved        postpublish: 'git push origin --all; git push origin --tags' },
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/isaacs/yallist.git' },
+613 silly install resolved     author:
+613 silly install resolved      { name: 'Isaac Z. Schlueter',
+613 silly install resolved        email: 'i@izs.me',
+613 silly install resolved        url: 'http://blog.izs.me/' },
+613 silly install resolved     license: 'ISC',
+613 silly install resolved     gitHead: 'd692d0f974934858b76c3b1f7f0973d0450c5c87',
+613 silly install resolved     bugs: { url: 'https://github.com/isaacs/yallist/issues' },
+613 silly install resolved     homepage: 'https://github.com/isaacs/yallist#readme',
+613 silly install resolved     _id: 'yallist@3.0.2',
+613 silly install resolved     _shasum: '8452b4bb7e83c7c188d8041c1a837c773d6d8bb9',
+613 silly install resolved     _from: 'yallist@>=3.0.2 <4.0.0',
+613 silly install resolved     _npmVersion: '4.5.0',
+613 silly install resolved     _nodeVersion: '8.0.0-pre',
+613 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '8452b4bb7e83c7c188d8041c1a837c773d6d8bb9',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/yallist/-/yallist-3.0.2.tgz' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     _npmOperationalInternal:
+613 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+613 silly install resolved        tmp: 'tmp/yallist-3.0.2.tgz_1493150377027_0.22160566318780184' },
+613 silly install resolved     _resolved: 'https://registry.npmjs.org/yallist/-/yallist-3.0.2.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' } ]
+614 info install minipass@2.0.2 into /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+615 info install mkdirp@0.5.1 into /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+616 info install minizlib@1.0.3 into /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+617 info install yallist@3.0.2 into /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+618 info installOne minipass@2.0.2
+619 verbose installOne of minipass to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar not in flight; installing
+620 info installOne mkdirp@0.5.1
+621 verbose installOne of mkdirp to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar not in flight; installing
+622 info installOne minizlib@1.0.3
+623 verbose installOne of minizlib to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar not in flight; installing
+624 info installOne yallist@3.0.2
+625 verbose installOne of yallist to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar not in flight; installing
+626 silly install resolved [ { name: 'minipass',
+626 silly install resolved     version: '2.0.2',
+626 silly install resolved     description: 'minimal implementation of a PassThrough stream',
+626 silly install resolved     main: 'index.js',
+626 silly install resolved     dependencies: { yallist: '^3.0.0' },
+626 silly install resolved     devDependencies: { 'end-of-stream': '^1.4.0', tap: '10' },
+626 silly install resolved     scripts:
+626 silly install resolved      { test: 'tap test/*.js --100',
+626 silly install resolved        preversion: 'npm test',
+626 silly install resolved        postversion: 'npm publish',
+626 silly install resolved        postpublish: 'git push origin --all; git push origin --tags' },
+626 silly install resolved     repository:
+626 silly install resolved      { type: 'git',
+626 silly install resolved        url: 'git+https://github.com/isaacs/minipass.git' },
+626 silly install resolved     keywords: [ 'passthrough', 'stream' ],
+626 silly install resolved     author:
+626 silly install resolved      { name: 'Isaac Z. Schlueter',
+626 silly install resolved        email: 'i@izs.me',
+626 silly install resolved        url: 'http://blog.izs.me/' },
+626 silly install resolved     license: 'ISC',
+626 silly install resolved     gitHead: 'b18627e376d16f9188cd4049efb8febacf8b2fa2',
+626 silly install resolved     bugs: { url: 'https://github.com/isaacs/minipass/issues' },
+626 silly install resolved     homepage: 'https://github.com/isaacs/minipass#readme',
+626 silly install resolved     _id: 'minipass@2.0.2',
+626 silly install resolved     _npmVersion: '5.0.0-beta.44',
+626 silly install resolved     _nodeVersion: '8.0.0-pre',
+626 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+626 silly install resolved     dist:
+626 silly install resolved      { integrity: 'sha512-DtFmHGmqDzlw/iUypeGvwFSbP3n7R6S0wcJ1GiQkKxM1aQigmCUaQLOT2fGQGNwZCKdqxTtC2NN5FzEWFiz+KA==',
+626 silly install resolved        shasum: 'fae5c78124051f56fd2007df0012e0dac7a752ce',
+626 silly install resolved        tarball: 'https://registry.npmjs.org/minipass/-/minipass-2.0.2.tgz' },
+626 silly install resolved     maintainers: [ [Object] ],
+626 silly install resolved     _npmOperationalInternal:
+626 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+626 silly install resolved        tmp: 'tmp/minipass-2.0.2.tgz_1494436039082_0.553761099698022' },
+626 silly install resolved     directories: {},
+626 silly install resolved     _shasum: 'fae5c78124051f56fd2007df0012e0dac7a752ce',
+626 silly install resolved     _resolved: 'https://registry.npmjs.org/minipass/-/minipass-2.0.2.tgz',
+626 silly install resolved     _from: 'minipass@>=2.0.2 <3.0.0',
+626 silly install resolved     readme: 'ERROR: No README data found!' },
+626 silly install resolved   { name: 'mkdirp',
+626 silly install resolved     description: 'Recursively mkdir, like `mkdir -p`',
+626 silly install resolved     version: '0.5.1',
+626 silly install resolved     author:
+626 silly install resolved      { name: 'James Halliday',
+626 silly install resolved        email: 'mail@substack.net',
+626 silly install resolved        url: 'http://substack.net' },
+626 silly install resolved     main: 'index.js',
+626 silly install resolved     keywords: [ 'mkdir', 'directory' ],
+626 silly install resolved     repository:
+626 silly install resolved      { type: 'git',
+626 silly install resolved        url: 'git+https://github.com/substack/node-mkdirp.git' },
+626 silly install resolved     scripts: { test: 'tap test/*.js' },
+626 silly install resolved     dependencies: { minimist: '0.0.8' },
+626 silly install resolved     devDependencies: { tap: '1', 'mock-fs': '2 >=2.7.0' },
+626 silly install resolved     bin: { mkdirp: 'bin/cmd.js' },
+626 silly install resolved     license: 'MIT',
+626 silly install resolved     gitHead: 'd4eff0f06093aed4f387e88e9fc301cb76beedc7',
+626 silly install resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+626 silly install resolved     homepage: 'https://github.com/substack/node-mkdirp#readme',
+626 silly install resolved     _id: 'mkdirp@0.5.1',
+626 silly install resolved     _shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+626 silly install resolved     _from: 'mkdirp@>=0.5.0 <0.6.0',
+626 silly install resolved     _npmVersion: '2.9.0',
+626 silly install resolved     _nodeVersion: '2.0.0',
+626 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+626 silly install resolved     dist:
+626 silly install resolved      { shasum: '30057438eac6cf7f8c4767f38648d6697d75c903',
+626 silly install resolved        tarball: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz' },
+626 silly install resolved     maintainers: [ [Object] ],
+626 silly install resolved     directories: {},
+626 silly install resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz',
+626 silly install resolved     readme: 'ERROR: No README data found!' },
+626 silly install resolved   { name: 'minizlib',
+626 silly install resolved     version: '1.0.3',
+626 silly install resolved     description: 'A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js\'s zlib binding.',
+626 silly install resolved     main: 'index.js',
+626 silly install resolved     dependencies: { minipass: '^2.0.0' },
+626 silly install resolved     scripts:
+626 silly install resolved      { test: 'tap test/*.js --100 -J',
+626 silly install resolved        preversion: 'npm test',
+626 silly install resolved        postversion: 'npm publish',
+626 silly install resolved        postpublish: 'git push origin --all; git push origin --tags' },
+626 silly install resolved     repository:
+626 silly install resolved      { type: 'git',
+626 silly install resolved        url: 'git+https://github.com/isaacs/minizlib.git' },
+626 silly install resolved     keywords:
+626 silly install resolved      [ 'zlib',
+626 silly install resolved        'gzip',
+626 silly install resolved        'gunzip',
+626 silly install resolved        'deflate',
+626 silly install resolved        'inflate',
+626 silly install resolved        'compression',
+626 silly install resolved        'zip',
+626 silly install resolved        'unzip' ],
+626 silly install resolved     author:
+626 silly install resolved      { name: 'Isaac Z. Schlueter',
+626 silly install resolved        email: 'i@izs.me',
+626 silly install resolved        url: 'http://blog.izs.me/' },
+626 silly install resolved     license: 'MIT',
+626 silly install resolved     devDependencies: { tap: '^10.3.0' },
+626 silly install resolved     files: [ 'index.js', 'constants.js' ],
+626 silly install resolved     gitHead: '18adfc6e208468eae276617b34bb4dfaeec1f532',
+626 silly install resolved     bugs: { url: 'https://github.com/isaacs/minizlib/issues' },
+626 silly install resolved     homepage: 'https://github.com/isaacs/minizlib#readme',
+626 silly install resolved     _id: 'minizlib@1.0.3',
+626 silly install resolved     _shasum: 'd5c1abf77be154619952e253336eccab9b2a32f5',
+626 silly install resolved     _from: 'minizlib@>=1.0.3 <2.0.0',
+626 silly install resolved     _npmVersion: '4.5.0',
+626 silly install resolved     _nodeVersion: '8.0.0-pre',
+626 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+626 silly install resolved     dist:
+626 silly install resolved      { shasum: 'd5c1abf77be154619952e253336eccab9b2a32f5',
+626 silly install resolved        tarball: 'https://registry.npmjs.org/minizlib/-/minizlib-1.0.3.tgz' },
+626 silly install resolved     maintainers: [ [Object] ],
+626 silly install resolved     _npmOperationalInternal:
+626 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+626 silly install resolved        tmp: 'tmp/minizlib-1.0.3.tgz_1493884866315_0.7689040366094559' },
+626 silly install resolved     directories: {},
+626 silly install resolved     _resolved: 'https://registry.npmjs.org/minizlib/-/minizlib-1.0.3.tgz',
+626 silly install resolved     readme: 'ERROR: No README data found!' },
+626 silly install resolved   { name: 'yallist',
+626 silly install resolved     version: '3.0.2',
+626 silly install resolved     description: 'Yet Another Linked List',
+626 silly install resolved     main: 'yallist.js',
+626 silly install resolved     directories: { test: 'test' },
+626 silly install resolved     files: [ 'yallist.js', 'iterator.js' ],
+626 silly install resolved     dependencies: {},
+626 silly install resolved     devDependencies: { tap: '^10.3.0' },
+626 silly install resolved     scripts:
+626 silly install resolved      { test: 'tap test/*.js --100',
+626 silly install resolved        preversion: 'npm test',
+626 silly install resolved        postversion: 'npm publish',
+626 silly install resolved        postpublish: 'git push origin --all; git push origin --tags' },
+626 silly install resolved     repository:
+626 silly install resolved      { type: 'git',
+626 silly install resolved        url: 'git+https://github.com/isaacs/yallist.git' },
+626 silly install resolved     author:
+626 silly install resolved      { name: 'Isaac Z. Schlueter',
+626 silly install resolved        email: 'i@izs.me',
+626 silly install resolved        url: 'http://blog.izs.me/' },
+626 silly install resolved     license: 'ISC',
+626 silly install resolved     gitHead: 'd692d0f974934858b76c3b1f7f0973d0450c5c87',
+626 silly install resolved     bugs: { url: 'https://github.com/isaacs/yallist/issues' },
+626 silly install resolved     homepage: 'https://github.com/isaacs/yallist#readme',
+626 silly install resolved     _id: 'yallist@3.0.2',
+626 silly install resolved     _shasum: '8452b4bb7e83c7c188d8041c1a837c773d6d8bb9',
+626 silly install resolved     _from: 'yallist@>=3.0.2 <4.0.0',
+626 silly install resolved     _npmVersion: '4.5.0',
+626 silly install resolved     _nodeVersion: '8.0.0-pre',
+626 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+626 silly install resolved     dist:
+626 silly install resolved      { shasum: '8452b4bb7e83c7c188d8041c1a837c773d6d8bb9',
+626 silly install resolved        tarball: 'https://registry.npmjs.org/yallist/-/yallist-3.0.2.tgz' },
+626 silly install resolved     maintainers: [ [Object] ],
+626 silly install resolved     _npmOperationalInternal:
+626 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+626 silly install resolved        tmp: 'tmp/yallist-3.0.2.tgz_1493150377027_0.22160566318780184' },
+626 silly install resolved     _resolved: 'https://registry.npmjs.org/yallist/-/yallist-3.0.2.tgz',
+626 silly install resolved     readme: 'ERROR: No README data found!' } ]
+627 info install minipass@2.0.2 into /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+628 info install mkdirp@0.5.1 into /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+629 info install minizlib@1.0.3 into /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+630 info install yallist@3.0.2 into /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+631 info installOne minipass@2.0.2
+632 verbose installOne of minipass to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar not in flight; installing
+633 info installOne mkdirp@0.5.1
+634 verbose installOne of mkdirp to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar not in flight; installing
+635 info installOne minizlib@1.0.3
+636 verbose installOne of minizlib to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar not in flight; installing
+637 info installOne yallist@3.0.2
+638 verbose installOne of yallist to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar not in flight; installing
+639 verbose lock using /Users/utkarsh/.npm/_locks/minipass-aabc1fec2283c42a.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+640 verbose lock using /Users/utkarsh/.npm/_locks/mkdirp-d76f187d14eda50b.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+641 verbose lock using /Users/utkarsh/.npm/_locks/minipass-feedae34e5f873f3.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+642 verbose lock using /Users/utkarsh/.npm/_locks/minizlib-0137465feea4b9a8.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+643 verbose lock using /Users/utkarsh/.npm/_locks/yallist-2af8d38e1298cbae.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+644 silly install write writing minipass 2.0.2 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+645 silly install write writing mkdirp 0.5.1 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+646 silly install write writing minipass 2.0.2 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+647 silly install write writing minizlib 1.0.3 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+648 verbose lock using /Users/utkarsh/.npm/_locks/minizlib-c9ab6cc6332402e4.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+649 silly install write writing yallist 3.0.2 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+650 verbose lock using /Users/utkarsh/.npm/_locks/yallist-680d339cbe015e38.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+651 verbose lock using /Users/utkarsh/.npm/_locks/mkdirp-f1ec379c65d45440.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+652 silly install write writing minizlib 1.0.3 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+653 silly install write writing yallist 3.0.2 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+654 silly install write writing mkdirp 0.5.1 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+655 verbose unbuild node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+656 verbose unbuild node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+657 verbose unbuild node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+658 verbose unbuild node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+659 verbose unbuild node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+660 verbose unbuild node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+661 verbose unbuild node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+662 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass is being purged from base /Users/utkarsh/codes/Help-bot
+663 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+664 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass is being purged from base /Users/utkarsh/codes/Help-bot
+665 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+666 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib is being purged from base /Users/utkarsh/codes/Help-bot
+667 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+668 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist is being purged from base /Users/utkarsh/codes/Help-bot
+669 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+670 verbose unbuild node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+671 verbose tar unpack /Users/utkarsh/.npm/minipass/2.0.2/package.tgz
+672 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+673 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass is being purged
+674 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+675 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp is being purged from base /Users/utkarsh/codes/Help-bot
+676 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+677 verbose tar unpack /Users/utkarsh/.npm/minipass/2.0.2/package.tgz
+678 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+679 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass is being purged
+680 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+681 verbose tar unpack /Users/utkarsh/.npm/minizlib/1.0.3/package.tgz
+682 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+683 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib is being purged
+684 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+685 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib is being purged from base /Users/utkarsh/codes/Help-bot
+686 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+687 verbose tar unpack /Users/utkarsh/.npm/yallist/3.0.2/package.tgz
+688 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+689 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist is being purged
+690 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+691 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist is being purged from base /Users/utkarsh/codes/Help-bot
+692 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+693 silly gunzTarPerm modes [ '755', '644' ]
+694 verbose tar unpack /Users/utkarsh/.npm/mkdirp/0.5.1/package.tgz
+695 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+696 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp is being purged
+697 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+698 silly gunzTarPerm modes [ '755', '644' ]
+699 silly gunzTarPerm modes [ '755', '644' ]
+700 verbose tar unpack /Users/utkarsh/.npm/minizlib/1.0.3/package.tgz
+701 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+702 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib is being purged
+703 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+704 silly gunzTarPerm modes [ '755', '644' ]
+705 verbose tar unpack /Users/utkarsh/.npm/yallist/3.0.2/package.tgz
+706 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+707 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist is being purged
+708 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+709 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp is being purged from base /Users/utkarsh/codes/Help-bot
+710 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+711 silly gunzTarPerm modes [ '755', '644' ]
+712 silly gunzTarPerm modes [ '755', '644' ]
+713 silly gunzTarPerm modes [ '755', '644' ]
+714 verbose tar unpack /Users/utkarsh/.npm/mkdirp/0.5.1/package.tgz
+715 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+716 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp is being purged
+717 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+718 silly gunzTarPerm modes [ '755', '644' ]
+719 silly gunzTarPerm extractEntry package.json
+720 silly gunzTarPerm extractEntry package.json
+721 silly gunzTarPerm extractEntry package.json
+722 silly gunzTarPerm extractEntry package.json
+723 silly gunzTarPerm extractEntry package.json
+724 silly gunzTarPerm extractEntry package.json
+725 silly gunzTarPerm extractEntry package.json
+726 silly gunzTarPerm extractEntry package.json
+727 silly gunzTarPerm extractEntry .npmignore
+728 silly gunzTarPerm extractEntry README.md
+729 silly gunzTarPerm extractEntry .npmignore
+730 silly gunzTarPerm extractEntry README.md
+731 silly gunzTarPerm extractEntry README.md
+732 silly gunzTarPerm extractEntry LICENSE
+733 silly gunzTarPerm extractEntry README.md
+734 silly gunzTarPerm extractEntry LICENSE
+735 silly gunzTarPerm extractEntry README.md
+736 silly gunzTarPerm extractEntry LICENSE
+737 silly gunzTarPerm extractEntry README.md
+738 silly gunzTarPerm extractEntry LICENSE
+739 silly gunzTarPerm extractEntry LICENSE
+740 silly gunzTarPerm extractEntry index.js
+741 silly gunzTarPerm extractEntry LICENSE
+742 silly gunzTarPerm extractEntry index.js
+743 silly gunzTarPerm extractEntry d.js
+744 silly gunzTarPerm extractEntry b.js
+745 silly gunzTarPerm extractEntry d.js
+746 silly gunzTarPerm extractEntry b.js
+747 silly gunzTarPerm extractEntry iterator.js
+748 silly gunzTarPerm extractEntry yallist.js
+749 silly gunzTarPerm extractEntry constants.js
+750 silly gunzTarPerm extractEntry index.js
+751 silly gunzTarPerm extractEntry iterator.js
+752 silly gunzTarPerm extractEntry yallist.js
+753 silly gunzTarPerm extractEntry constants.js
+754 silly gunzTarPerm extractEntry index.js
+755 silly gunzTarPerm extractEntry .travis.yml
+756 silly gunzTarPerm extractEntry bin/cmd.js
+757 silly gunzTarPerm extractEntry .travis.yml
+758 silly gunzTarPerm extractEntry bin/cmd.js
+759 silly gunzTarPerm extractEntry e.js
+760 silly gunzTarPerm extractEntry eos.js
+761 silly gunzTarPerm extractEntry e.js
+762 silly gunzTarPerm extractEntry eos.js
+763 silly gunzTarPerm extractEntry bin/usage.txt
+764 silly gunzTarPerm extractEntry examples/pow.js
+765 silly gunzTarPerm extractEntry bin/usage.txt
+766 silly gunzTarPerm extractEntry examples/pow.js
+767 silly gunzTarPerm extractEntry index.js
+768 silly gunzTarPerm extractEntry foo
+769 silly gunzTarPerm extractEntry index.js
+770 silly gunzTarPerm extractEntry foo
+771 silly gunzTarPerm extractEntry readme.markdown
+772 silly gunzTarPerm extractEntry test/chmod.js
+773 silly gunzTarPerm extractEntry .travis.yml
+774 silly gunzTarPerm extractEntry test/basic.js
+775 silly gunzTarPerm extractEntry test/empty-end.js
+776 silly gunzTarPerm extractEntry .travis.yml
+777 silly gunzTarPerm extractEntry test/basic.js
+778 silly gunzTarPerm extractEntry test/empty-end.js
+779 silly gunzTarPerm extractEntry readme.markdown
+780 silly gunzTarPerm extractEntry test/chmod.js
+781 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+782 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+783 silly gunzTarPerm extractEntry test/perm.js
+784 silly gunzTarPerm extractEntry test/perm_sync.js
+785 silly gunzTarPerm extractEntry test/perm.js
+786 silly gunzTarPerm extractEntry test/perm_sync.js
+787 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib/package.json
+788 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist/package.json
+789 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib/package.json
+790 silly gunzTarPerm extractEntry test/opts_fs.js
+791 silly gunzTarPerm extractEntry test/rel.js
+792 silly gunzTarPerm extractEntry test/opts_fs.js
+793 silly gunzTarPerm extractEntry test/rel.js
+794 info preinstall minizlib@1.0.3
+795 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist/package.json
+796 info preinstall yallist@3.0.2
+797 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib/package.json
+798 info preinstall minizlib@1.0.3
+799 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist/package.json
+800 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib/package.json
+801 info preinstall yallist@3.0.2
+802 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist/package.json
+803 silly gunzTarPerm extractEntry test/return.js
+804 silly gunzTarPerm extractEntry test/return_sync.js
+805 silly gunzTarPerm extractEntry test/return.js
+806 silly gunzTarPerm extractEntry test/return_sync.js
+807 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist/package.json
+808 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib/package.json
+809 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib/package.json
+810 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist/package.json
+811 silly install resolved []
+812 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+813 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+814 silly install resolved []
+815 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+816 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+817 silly install resolved []
+818 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+819 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+820 silly install resolved []
+821 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+822 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+823 info linkStuff yallist@3.0.2
+824 silly linkStuff yallist@3.0.2 has /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules as its parent node_modules
+825 info linkStuff minizlib@1.0.3
+826 silly linkStuff minizlib@1.0.3 has /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules as its parent node_modules
+827 info linkStuff minizlib@1.0.3
+828 silly linkStuff minizlib@1.0.3 has /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules as its parent node_modules
+829 info linkStuff yallist@3.0.2
+830 silly linkStuff yallist@3.0.2 has /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules as its parent node_modules
+831 silly gunzTarPerm extractEntry test/root.js
+832 silly gunzTarPerm extractEntry test/sync.js
+833 silly gunzTarPerm extractEntry test/root.js
+834 silly gunzTarPerm extractEntry test/sync.js
+835 verbose linkBins yallist@3.0.2
+836 verbose linkMans yallist@3.0.2
+837 verbose rebuildBundles yallist@3.0.2
+838 verbose linkBins minizlib@1.0.3
+839 verbose linkMans minizlib@1.0.3
+840 verbose rebuildBundles minizlib@1.0.3
+841 verbose linkBins minizlib@1.0.3
+842 verbose linkMans minizlib@1.0.3
+843 verbose rebuildBundles minizlib@1.0.3
+844 info install yallist@3.0.2
+845 info install minizlib@1.0.3
+846 info install minizlib@1.0.3
+847 verbose linkBins yallist@3.0.2
+848 verbose linkMans yallist@3.0.2
+849 verbose rebuildBundles yallist@3.0.2
+850 info install yallist@3.0.2
+851 info postinstall yallist@3.0.2
+852 info postinstall minizlib@1.0.3
+853 info postinstall minizlib@1.0.3
+854 info postinstall yallist@3.0.2
+855 verbose unlock done using /Users/utkarsh/.npm/_locks/yallist-680d339cbe015e38.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/yallist
+856 verbose unlock done using /Users/utkarsh/.npm/_locks/minizlib-c9ab6cc6332402e4.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minizlib
+857 verbose unlock done using /Users/utkarsh/.npm/_locks/minizlib-0137465feea4b9a8.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minizlib
+858 verbose unlock done using /Users/utkarsh/.npm/_locks/yallist-2af8d38e1298cbae.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/yallist
+859 silly gunzTarPerm extractEntry test/mkdirp.js
+860 silly gunzTarPerm extractEntry test/umask.js
+861 silly gunzTarPerm extractEntry test/mkdirp.js
+862 silly gunzTarPerm extractEntry test/umask.js
+863 silly gunzTarPerm extractEntry test/clobber.js
+864 silly gunzTarPerm extractEntry test/umask_sync.js
+865 silly gunzTarPerm extractEntry test/clobber.js
+866 silly gunzTarPerm extractEntry test/umask_sync.js
+867 silly gunzTarPerm extractEntry test/race.js
+868 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass/package.json
+869 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass/package.json
+870 silly gunzTarPerm extractEntry test/race.js
+871 info preinstall minipass@2.0.2
+872 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass/package.json
+873 info preinstall minipass@2.0.2
+874 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass/package.json
+875 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass/package.json
+876 silly install resolved []
+877 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+878 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+879 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass/package.json
+880 info linkStuff minipass@2.0.2
+881 silly linkStuff minipass@2.0.2 has /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules as its parent node_modules
+882 silly install resolved []
+883 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+884 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+885 info linkStuff minipass@2.0.2
+886 silly linkStuff minipass@2.0.2 has /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules as its parent node_modules
+887 verbose linkBins minipass@2.0.2
+888 verbose linkMans minipass@2.0.2
+889 verbose rebuildBundles minipass@2.0.2
+890 info install minipass@2.0.2
+891 info postinstall minipass@2.0.2
+892 verbose unlock done using /Users/utkarsh/.npm/_locks/minipass-feedae34e5f873f3.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/minipass
+893 verbose linkBins minipass@2.0.2
+894 verbose linkMans minipass@2.0.2
+895 verbose rebuildBundles minipass@2.0.2
+896 info install minipass@2.0.2
+897 info postinstall minipass@2.0.2
+898 verbose unlock done using /Users/utkarsh/.npm/_locks/minipass-aabc1fec2283c42a.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/minipass
+899 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/package.json
+900 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/package.json
+901 info preinstall mkdirp@0.5.1
+902 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/package.json
+903 info preinstall mkdirp@0.5.1
+904 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/package.json
+905 silly prepareForInstallMany adding minimist@0.0.8 from mkdirp dependencies
+906 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/package.json
+907 silly prepareForInstallMany adding minimist@0.0.8 from mkdirp dependencies
+908 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/package.json
+909 silly cache add args [ 'minimist@0.0.8', null ]
+910 verbose cache add spec minimist@0.0.8
+911 silly cache add args [ 'minimist@0.0.8', null ]
+912 verbose cache add spec minimist@0.0.8
+913 silly cache add parsed spec { raw: 'minimist@0.0.8',
+913 silly cache add   scope: null,
+913 silly cache add   name: 'minimist',
+913 silly cache add   rawSpec: '0.0.8',
+913 silly cache add   spec: '0.0.8',
+913 silly cache add   type: 'version' }
+914 silly addNamed minimist@0.0.8
+915 verbose addNamed "0.0.8" is a plain semver version for minimist
+916 silly mapToRegistry name minimist
+917 silly mapToRegistry using default registry
+918 silly mapToRegistry registry https://registry.npmjs.org/
+919 silly mapToRegistry uri https://registry.npmjs.org/minimist
+920 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+921 silly cache add parsed spec { raw: 'minimist@0.0.8',
+921 silly cache add   scope: null,
+921 silly cache add   name: 'minimist',
+921 silly cache add   rawSpec: '0.0.8',
+921 silly cache add   spec: '0.0.8',
+921 silly cache add   type: 'version' }
+922 silly addNamed minimist@0.0.8
+923 verbose addNamed "0.0.8" is a plain semver version for minimist
+924 silly mapToRegistry name minimist
+925 silly mapToRegistry using default registry
+926 silly mapToRegistry registry https://registry.npmjs.org/
+927 silly mapToRegistry uri https://registry.npmjs.org/minimist
+928 verbose addNameVersion registry:https://registry.npmjs.org/minimist already in flight; waiting
+929 verbose request uri https://registry.npmjs.org/minimist
+930 verbose request no auth needed
+931 info attempt registry request try #1 at 18:31:14
+932 verbose etag W/"5929d364-75c8"
+933 verbose lastModified Sat, 27 May 2017 19:28:36 GMT
+934 http request GET https://registry.npmjs.org/minimist
+935 http 304 https://registry.npmjs.org/minimist
+936 silly get cb [ 304,
+936 silly get   { date: 'Wed, 07 Jun 2017 12:47:10 GMT',
+936 silly get     via: '1.1 varnish',
+936 silly get     'cache-control': 'max-age=300',
+936 silly get     etag: 'W/"5929d364-75c8"',
+936 silly get     age: '160',
+936 silly get     connection: 'keep-alive',
+936 silly get     'x-served-by': 'cache-ams4430-AMS',
+936 silly get     'x-cache': 'HIT',
+936 silly get     'x-cache-hits': '12',
+936 silly get     'x-timer': 'S1496839630.384666,VS0,VE0',
+936 silly get     vary: 'Accept-Encoding' } ]
+937 verbose etag https://registry.npmjs.org/minimist from cache
+938 verbose get saving minimist to /Users/utkarsh/.npm/registry.npmjs.org/minimist/.cache.json
+939 silly cache afterAdd minimist@0.0.8
+940 verbose afterAdd /Users/utkarsh/.npm/minimist/0.0.8/package/package.json not in flight; writing
+941 silly cache afterAdd minimist@0.0.8
+942 verbose afterAdd /Users/utkarsh/.npm/minimist/0.0.8/package/package.json already in flight; not writing
+943 verbose afterAdd /Users/utkarsh/.npm/minimist/0.0.8/package/package.json written
+944 silly install resolved [ { name: 'minimist',
+944 silly install resolved     version: '0.0.8',
+944 silly install resolved     description: 'parse argument options',
+944 silly install resolved     main: 'index.js',
+944 silly install resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+944 silly install resolved     scripts: { test: 'tap test/*.js' },
+944 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+944 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+944 silly install resolved     homepage: 'https://github.com/substack/minimist',
+944 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+944 silly install resolved     author:
+944 silly install resolved      { name: 'James Halliday',
+944 silly install resolved        email: 'mail@substack.net',
+944 silly install resolved        url: 'http://substack.net' },
+944 silly install resolved     license: 'MIT',
+944 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+944 silly install resolved     _id: 'minimist@0.0.8',
+944 silly install resolved     dist:
+944 silly install resolved      { shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+944 silly install resolved        tarball: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' },
+944 silly install resolved     _from: 'minimist@0.0.8',
+944 silly install resolved     _npmVersion: '1.4.3',
+944 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+944 silly install resolved     maintainers: [ [Object] ],
+944 silly install resolved     directories: {},
+944 silly install resolved     _shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+944 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+944 silly install resolved     readme: 'ERROR: No README data found!' } ]
+945 info install minimist@0.0.8 into /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+946 info installOne minimist@0.0.8
+947 verbose installOne of minimist to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp not in flight; installing
+948 silly install resolved [ { name: 'minimist',
+948 silly install resolved     version: '0.0.8',
+948 silly install resolved     description: 'parse argument options',
+948 silly install resolved     main: 'index.js',
+948 silly install resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+948 silly install resolved     scripts: { test: 'tap test/*.js' },
+948 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+948 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+948 silly install resolved     homepage: 'https://github.com/substack/minimist',
+948 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+948 silly install resolved     author:
+948 silly install resolved      { name: 'James Halliday',
+948 silly install resolved        email: 'mail@substack.net',
+948 silly install resolved        url: 'http://substack.net' },
+948 silly install resolved     license: 'MIT',
+948 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+948 silly install resolved     _id: 'minimist@0.0.8',
+948 silly install resolved     dist:
+948 silly install resolved      { shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+948 silly install resolved        tarball: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' },
+948 silly install resolved     _from: 'minimist@0.0.8',
+948 silly install resolved     _npmVersion: '1.4.3',
+948 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+948 silly install resolved     maintainers: [ [Object] ],
+948 silly install resolved     directories: {},
+948 silly install resolved     _shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+948 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+948 silly install resolved     readme: 'ERROR: No README data found!' } ]
+949 info install minimist@0.0.8 into /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+950 info installOne minimist@0.0.8
+951 verbose installOne of minimist to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp not in flight; installing
+952 verbose lock using /Users/utkarsh/.npm/_locks/minimist-4121897ffa73fe99.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+953 silly install write writing minimist 0.0.8 to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+954 verbose lock using /Users/utkarsh/.npm/_locks/minimist-864ca46050745f4c.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+955 silly install write writing minimist 0.0.8 to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+956 verbose unbuild node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+957 verbose unbuild node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+958 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist is being purged from base /Users/utkarsh/codes/Help-bot
+959 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+960 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist is being purged from base /Users/utkarsh/codes/Help-bot
+961 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+962 verbose tar unpack /Users/utkarsh/.npm/minimist/0.0.8/package.tgz
+963 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+964 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist is being purged
+965 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+966 verbose tar unpack /Users/utkarsh/.npm/minimist/0.0.8/package.tgz
+967 verbose tar unpacking to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+968 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist is being purged
+969 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+970 silly gunzTarPerm modes [ '755', '644' ]
+971 silly gunzTarPerm modes [ '755', '644' ]
+972 silly gunzTarPerm extractEntry package.json
+973 silly gunzTarPerm extractEntry package.json
+974 silly gunzTarPerm extractEntry LICENSE
+975 silly gunzTarPerm extractEntry index.js
+976 silly gunzTarPerm extractEntry LICENSE
+977 silly gunzTarPerm extractEntry index.js
+978 silly gunzTarPerm extractEntry .travis.yml
+979 silly gunzTarPerm extractEntry example/parse.js
+980 silly gunzTarPerm extractEntry .travis.yml
+981 silly gunzTarPerm extractEntry example/parse.js
+982 silly gunzTarPerm extractEntry readme.markdown
+983 silly gunzTarPerm extractEntry test/dash.js
+984 silly gunzTarPerm extractEntry readme.markdown
+985 silly gunzTarPerm extractEntry test/dash.js
+986 silly gunzTarPerm extractEntry test/default_bool.js
+987 silly gunzTarPerm extractEntry test/dotted.js
+988 silly gunzTarPerm extractEntry test/long.js
+989 silly gunzTarPerm extractEntry test/parse.js
+990 silly gunzTarPerm extractEntry test/parse_modified.js
+991 silly gunzTarPerm extractEntry test/short.js
+992 silly gunzTarPerm extractEntry test/whitespace.js
+993 silly gunzTarPerm extractEntry test/default_bool.js
+994 silly gunzTarPerm extractEntry test/dotted.js
+995 silly gunzTarPerm extractEntry test/long.js
+996 silly gunzTarPerm extractEntry test/parse.js
+997 silly gunzTarPerm extractEntry test/parse_modified.js
+998 silly gunzTarPerm extractEntry test/short.js
+999 silly gunzTarPerm extractEntry test/whitespace.js
+1000 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist/package.json
+1001 verbose write writing to /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist/package.json
+1002 info preinstall minimist@0.0.8
+1003 info preinstall minimist@0.0.8
+1004 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist/package.json
+1005 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist/package.json
+1006 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist/package.json
+1007 verbose readDependencies loading dependencies from /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist/package.json
+1008 silly install resolved []
+1009 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+1010 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+1011 silly install resolved []
+1012 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+1013 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+1014 info linkStuff minimist@0.0.8
+1015 silly linkStuff minimist@0.0.8 has /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules as its parent node_modules
+1016 info linkStuff minimist@0.0.8
+1017 silly linkStuff minimist@0.0.8 has /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules as its parent node_modules
+1018 verbose linkBins minimist@0.0.8
+1019 verbose linkMans minimist@0.0.8
+1020 verbose rebuildBundles minimist@0.0.8
+1021 info install minimist@0.0.8
+1022 info postinstall minimist@0.0.8
+1023 verbose linkBins minimist@0.0.8
+1024 verbose linkMans minimist@0.0.8
+1025 verbose rebuildBundles minimist@0.0.8
+1026 info install minimist@0.0.8
+1027 verbose unlock done using /Users/utkarsh/.npm/_locks/minimist-864ca46050745f4c.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+1028 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+1029 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+1030 info postinstall minimist@0.0.8
+1031 verbose unlock done using /Users/utkarsh/.npm/_locks/minimist-4121897ffa73fe99.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp/node_modules/minimist
+1032 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+1033 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+1034 info linkStuff mkdirp@0.5.1
+1035 silly linkStuff mkdirp@0.5.1 has /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules as its parent node_modules
+1036 info linkStuff mkdirp@0.5.1
+1037 silly linkStuff mkdirp@0.5.1 has /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules as its parent node_modules
+1038 verbose linkBins mkdirp@0.5.1
+1039 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1039 verbose link bins   '/Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/.bin',
+1039 verbose link bins   false ]
+1040 verbose linkMans mkdirp@0.5.1
+1041 verbose rebuildBundles mkdirp@0.5.1
+1042 verbose rebuildBundles [ 'minimist' ]
+1043 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/.bin/mkdirp is being purged
+1044 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/.bin/mkdirp
+1045 verbose linkBins mkdirp@0.5.1
+1046 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1046 verbose link bins   '/Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/.bin',
+1046 verbose link bins   false ]
+1047 verbose linkMans mkdirp@0.5.1
+1048 verbose rebuildBundles mkdirp@0.5.1
+1049 verbose rebuildBundles [ 'minimist' ]
+1050 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/.bin/mkdirp is being purged
+1051 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/.bin/mkdirp
+1052 info install mkdirp@0.5.1
+1053 info postinstall mkdirp@0.5.1
+1054 info install mkdirp@0.5.1
+1055 verbose unlock done using /Users/utkarsh/.npm/_locks/mkdirp-d76f187d14eda50b.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar/node_modules/mkdirp
+1056 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+1057 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+1058 info postinstall mkdirp@0.5.1
+1059 verbose unlock done using /Users/utkarsh/.npm/_locks/mkdirp-f1ec379c65d45440.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar/node_modules/mkdirp
+1060 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+1061 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+1062 info linkStuff tar@3.1.5
+1063 silly linkStuff tar@3.1.5 has /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules as its parent node_modules
+1064 info linkStuff tar@3.1.5
+1065 silly linkStuff tar@3.1.5 has /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules as its parent node_modules
+1066 verbose linkBins tar@3.1.5
+1067 verbose linkMans tar@3.1.5
+1068 verbose rebuildBundles tar@3.1.5
+1069 verbose rebuildBundles [ '.bin', 'minipass', 'minizlib', 'mkdirp', 'yallist' ]
+1070 info install tar@3.1.5
+1071 info postinstall tar@3.1.5
+1072 verbose linkBins tar@3.1.5
+1073 verbose linkMans tar@3.1.5
+1074 verbose rebuildBundles tar@3.1.5
+1075 verbose rebuildBundles [ '.bin', 'minipass', 'minizlib', 'mkdirp', 'yallist' ]
+1076 info install tar@3.1.5
+1077 verbose unlock done using /Users/utkarsh/.npm/_locks/tar-79b1629addb09bd3.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db/node_modules/tar
+1078 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+1079 info build /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+1080 info postinstall tar@3.1.5
+1081 verbose unlock done using /Users/utkarsh/.npm/_locks/tar-02bc0f3314942cb4.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions/node_modules/tar
+1082 verbose about to build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+1083 info build /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+1084 info linkStuff wordnet-db@3.1.4
+1085 silly linkStuff wordnet-db@3.1.4 has /Users/utkarsh/codes/Help-bot/node_modules as its parent node_modules
+1086 info linkStuff wndb-with-exceptions@3.0.2
+1087 silly linkStuff wndb-with-exceptions@3.0.2 has /Users/utkarsh/codes/Help-bot/node_modules as its parent node_modules
+1088 verbose linkBins wordnet-db@3.1.4
+1089 verbose linkMans wordnet-db@3.1.4
+1090 verbose rebuildBundles wordnet-db@3.1.4
+1091 verbose rebuildBundles [ 'tar' ]
+1092 info install wordnet-db@3.1.4
+1093 info postinstall wordnet-db@3.1.4
+1094 verbose unsafe-perm in lifecycle true
+1095 verbose linkBins wndb-with-exceptions@3.0.2
+1096 verbose linkMans wndb-with-exceptions@3.0.2
+1097 verbose rebuildBundles wndb-with-exceptions@3.0.2
+1098 verbose rebuildBundles [ 'tar' ]
+1099 info install wndb-with-exceptions@3.0.2
+1100 info postinstall wndb-with-exceptions@3.0.2
+1101 info wordnet-db@3.1.4 Failed to exec postinstall script
+1102 verbose unsafe-perm in lifecycle true
+1103 verbose unlock done using /Users/utkarsh/.npm/_locks/wordnet-db-9f4d2adee6c9678d.lock for /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+1104 info wndb-with-exceptions@3.0.2 Failed to exec postinstall script
+1105 verbose unlock done using /Users/utkarsh/.npm/_locks/wndb-with-exceptions-14636f62dc4a2f26.lock for /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+1106 verbose stack Error: wordnet-db@3.1.4 postinstall: `node unpack.js WNdb-3.1.tar.gz`
+1106 verbose stack Exit status 1
+1106 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+1106 verbose stack     at EventEmitter.emit (events.js:110:17)
+1106 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1106 verbose stack     at ChildProcess.emit (events.js:110:17)
+1106 verbose stack     at maybeClose (child_process.js:1015:16)
+1106 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+1107 verbose pkgid wordnet-db@3.1.4
+1108 verbose cwd /Users/utkarsh/codes/Help-bot/src
+1109 error Darwin 16.4.0
+1110 error argv "node" "/usr/local/bin/npm" "install"
+1111 error node v0.12.7
+1112 error npm  v2.12.1
+1113 error code ELIFECYCLE
+1114 error wordnet-db@3.1.4 postinstall: `node unpack.js WNdb-3.1.tar.gz`
+1114 error Exit status 1
+1115 error Failed at the wordnet-db@3.1.4 postinstall script 'node unpack.js WNdb-3.1.tar.gz'.
+1115 error This is most likely a problem with the wordnet-db package,
+1115 error not with npm itself.
+1115 error Tell the author that this fails on your system:
+1115 error     node unpack.js WNdb-3.1.tar.gz
+1115 error You can get their info via:
+1115 error     npm owner ls wordnet-db
+1115 error There is likely additional logging output above.
+1116 verbose exit [ 1, true ]
+1117 verbose unbuild node_modules/wordnet-db
+1118 info preuninstall wordnet-db@3.1.4
+1119 info uninstall wordnet-db@3.1.4
+1120 verbose unbuild rmStuff wordnet-db@3.1.4 from /Users/utkarsh/codes/Help-bot/node_modules
+1121 info postuninstall wordnet-db@3.1.4
+1122 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db is being purged from base /Users/utkarsh/codes/Help-bot
+1123 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+1124 silly vacuum-fs purging /Users/utkarsh/codes/Help-bot/node_modules/wordnet-db
+1125 silly vacuum-fs quitting because other entries in /Users/utkarsh/codes/Help-bot/node_modules
+1126 verbose unbuild node_modules/wndb-with-exceptions
+1127 info preuninstall wndb-with-exceptions@3.0.2
+1128 info uninstall wndb-with-exceptions@3.0.2
+1129 verbose unbuild rmStuff wndb-with-exceptions@3.0.2 from /Users/utkarsh/codes/Help-bot/node_modules
+1130 info postuninstall wndb-with-exceptions@3.0.2
+1131 silly gentlyRm /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions is being purged from base /Users/utkarsh/codes/Help-bot
+1132 verbose gentlyRm don't care about contents; nuking /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+1133 silly vacuum-fs purging /Users/utkarsh/codes/Help-bot/node_modules/wndb-with-exceptions
+1134 silly vacuum-fs quitting because other entries in /Users/utkarsh/codes/Help-bot/node_modules

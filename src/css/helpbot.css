@@ -1,0 +1,51 @@
+button {
+	vertical-align: bottom!important;
+}
+body{
+	margin: 4rem;
+}
+
+
+th {
+    background-color: #428bca;
+}
+.container{
+	background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  color: #fff;
+  width: 100%;
+  margin-left: 0px!important;
+}
+.navbar-brand{
+	color: #fff!important;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  display: inline!important;
+  margin-right: 40px;
+}
+.predict-button-holder{
+	height: 9rem;
+  margin-top: 1rem;
+}
+#predict_answer, #demo_process_features, #demo_process_question{
+	float: right;
+}
+
+textarea{
+  width: 100%;
+}
+
+th, td{
+  padding: 2px;
+  border: 1px;
+  border-style: solid;
+}
+.first-answer{
+  border: 1px;
+  border-style: solid;
+  margin-bottom: 6rem;
+  padding: 1rem;
+}
